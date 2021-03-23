@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Fake Profile Detection</title>
+    <!-- Favicon -->
+    <link rel="icon" sizes="16x16" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="main" style="padding: 85px;">
+        <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
+            <form method="POST" class="appointment-form" style="padding-top: 0px;padding-bottom: 0px;" id="appointment-form-url">
+                <h5 align="center" style="color: #2c437f;">Paste Facebook Profile URL</h5>
+                <div class="form-row">
+                    <div class="col-lg-10" style="padding: 15px 15px 15px 15px;width: 80%">
+                        <input type="text" name="profile_url" id="profile_url" placeholder="Facebook Profile URL" required />
+                    </div>
+                    <div class="col-lg-2 form-submit" style="padding: 15px 15px 15px 15px;">
+                        <center><input type="submit" name="submit" id="submit" class="submit" value="Validate Profile"/></center>
+                    </div>
+                </div>
+            </form>
+            <h6 align="center">OR</h6>
+            <form action="{{ url_for('predict')}}" method="POST" class="appointment-form" id="appointment-form" style="padding-top: 0px;padding-bottom: 15px;">                
+                <h5 align="center" style="color: #2c437f;">Manual Entry Form</h5>
+                <div class="form-row">
+                    <div class="col-lg-6" style="padding: 15px 15px 15px 15px;">
+                        <input type="text" name="user_name" id="user_name" placeholder="Username" required />
+                    </div>
+                    <div class="select-list col-lg-6" style="padding: 15px 15px 15px 15px;">
+                        <select name="language" id="language" style="background-color: #fff;color: #7d7581;">
+                            <option selcted value="" >Language</option>
+                            <option value="en">English</option>
+                            <option value="it">Italian</option>
+                            <option value="es">Spanish</option>
+                            <option value="fr">French</option>
+                            <option value="de">German</option>
+                            <option value="tr">Turkish</option>
+                            <option value="nl">Dutch</option>
+                            <option value="gl">Galician</option>
+                            <option value="other">Others</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col" style="padding: 15px 15px 15px 15px;">
+                      <input type="number" name="friends_count" id="friends_count" placeholder="Friends Count" required />
+                    </div>
+                    <div class="col" style="padding: 15px 15px 15px 15px;">
+                      <input type="number" name="followers_count" id="followers_count" placeholder="Followers Count" required />
+                    </div>
+                    <div class="col" style="padding: 15px 15px 15px 15px;">
+                      <input type="number" name="statuses_count" id="statuses_count" placeholder="Statuses Count" required />
+                    </div>
+                    <div class="col" style="padding: 15px 15px 15px 15px;">
+                      <input type="number" name="favourites_count" id="favourites_count" placeholder="Favourites Count" required />
+                    </div>
+                    <div class="col" style="padding: 15px 15px 15px 15px;">
+                      <input type="number" name="listed_count" id="listed_count" placeholder="Listed Count" required />
+                    </div>
+                </div>   
+                <textarea style="padding: 15px 15px 15px 15px;" type="text" name="about" id="about" rows="2" placeholder="About / Bio"></textarea> 
+                <br> 
+                <div class="form-submit">
+                    <center><button type="submit" name="submit" id="submit" class="submit"/>Submit</button></center>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

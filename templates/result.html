@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Fake Profile Detection</title>
+    <!-- Favicon -->
+    <link rel="icon" sizes="16x16" href="{{ url_for('static', filename='/images/favicon.png') }}" type="image/png">
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result-speedmeter.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        /* Create three equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 10px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .gauge {
+          width: 100%;
+          max-width: 250px;
+          font-family: "Roboto", sans-serif;
+          font-size: 32px;
+          color: #004033;
+        }
+
+        .gauge__body {
+          width: 100%;
+          height: 0;
+          padding-bottom: 50%;
+          background: #b4c0be;
+          position: relative;
+          border-top-left-radius: 100% 200%;
+          border-top-right-radius: 100% 200%;
+          overflow: hidden;
+        }
+
+        .gauge__fill {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: inherit;
+          height: 100%;
+          background: #009578;
+          transform-origin: center top;
+          transform: rotate(0.25turn);
+          transition: transform 0.2s ease-out;
+        }
+
+        .gauge__cover {
+          width: 75%;
+          height: 150%;
+          background: #ffffff;
+          border-radius: 50%;
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          transform: translateX(-50%);
+
+          /* Text */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 25%;
+          box-sizing: border-box;
+        }
+        .gauge {
+          width: 100%;
+          max-width: 250px;
+          font-family: "Roboto", sans-serif;
+          font-size: 32px;
+          color: #004033;
+        }
+
+        .gauge__body {
+          width: 100%;
+          height: 0;
+          padding-bottom: 50%;
+          background: #b4c0be;
+          position: relative;
+          border-top-left-radius: 100% 200%;
+          border-top-right-radius: 100% 200%;
+          overflow: hidden;
+        }
+
+        .gauge__fill {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: inherit;
+          height: 100%;
+          background: #2c437f;
+          transform-origin: center top;
+          transform: rotate(0.25turn);
+          transition: transform 0.2s ease-out;
+        }
+
+        .gauge__cover {
+          width: 75%;
+          height: 150%;
+          background: #ffffff;
+          border-radius: 50%;
+          position: absolute;
+          top: 25%;
+          left: 50%;
+          transform: translateX(-50%);
+
+          /* Text */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 25%;
+          box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main" style="margin: 0 auto;">
+        <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding-bottom: 15px;padding-top: 15px;">
+            <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
+            <div style="display:inline-block; float:right;">
+                <a href="/" style="padding-top: 15px;color: #2c437f;"><i class="fas fa-home"></i>&nbsp;Home</a>&emsp;
+                <a onClick="window.location.reload();" style="padding-top: 15px;color: #2c437f;"><i class="fa fa-refresh"></i>&nbsp;ReRun</a>
+            </div>
+            <br>
+            <h3 style="padding-top: 15px;color: #2c437f;" align="center">Fake Detection Meter</h3>
+            <div class="gauge" style="margin-left:auto;margin-right:auto;">
+              <div class="gauge__body">
+                <div class="gauge__fill"></div>
+                <div class="gauge__cover"></div>
+              </div>
+            </div>
+            <div style="text-align: center;">
+                <h5>Based on the Majority Voting of the Classification Algorithms, the profile has the possibility of <span style="color: red;">{{ percentage }}%</span> fakeness</h5>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="column">
+                    {% if rfr_prediction == 0 %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : Fake</p></strong>
+                    {% else %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : Genuine</p></strong>
+                    {% endif %}
+                    <p>Classification Report</p>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">precision</th>
+                              <th scope="col">recall</th>
+                              <th scope="col">f1</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Fake</th>
+                              <td>0.90</td>
+                              <td>0.99</td>
+                              <td>0.94</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Genuine</th>
+                              <td>0.99</td>
+                              <td>0.90</td>
+                              <td>0.94</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="column" style="border-left: 2px solid #2c437f;">
+                    {% if svm_prediction == 0 %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : Fake</p></strong>
+                    {% else %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : Genuine</p></strong>
+                    {% endif %}
+                    <p>Classification Report</p>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">precision</th>
+                              <th scope="col">recall</th>
+                              <th scope="col">f1</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Fake</th>
+                              <td>0.90</td>
+                              <td>0.99</td>
+                              <td>0.94</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Genuine</th>
+                              <td>0.99</td>
+                              <td>0.90</td>
+                              <td>0.94</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="column" style="border-left: 2px solid #2c437f;">
+                    {% if fnn_prediction == 0 %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : Fake</p></strong>
+                    {% else %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : Genuine</p></strong>
+                    {% endif %}
+                    <p>Classification Report</p>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">precision</th>
+                              <th scope="col">recall</th>
+                              <th scope="col">f1</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Fake</th>
+                              <td>0.90</td>
+                              <td>0.99</td>
+                              <td>0.94</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Genuine</th>
+                              <td>0.99</td>
+                              <td>0.90</td>
+                              <td>0.94</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script type="text/javascript">
+        const gaugeElement = document.querySelector(".gauge");
+        function setGaugeValue(gauge, value) {
+          if (value < 0 || value > 1) {
+            return;
+          }
+
+          gauge.querySelector(".gauge__fill").style.transform = `rotate(${
+            value / 2
+          }turn)`;
+          gauge.querySelector(".gauge__cover").textContent = `${Math.round(
+            value * 100
+          )}%`;
+        }
+        let rfr = {{ rfr_prediction }}
+        let svm = {{ svm_prediction }}
+        let fnn = {{ fnn_prediction }}
+        if ( (rfr==0 && svm==0 && fnn==1) || (rfr==0 && svm==1 && fnn==0) || (rfr==1 && svm==0 && fnn==0)) {
+            setGaugeValue(gaugeElement, 0.67);
+        }
+        else if ((rfr==1 && svm==0 && fnn==1) || (rfr==1 && svm==1 && fnn==0) || (rfr==0 && svm==1 && fnn==1)) {
+            setGaugeValue(gaugeElement, 0.33);
+        }
+        else if(rfr==1 && svm==1 && fnn==1){
+            setGaugeValue(gaugeElement, 0);
+        }
+        else{
+            setGaugeValue(gaugeElement, 1);
+        }
+    </script>
+</body>
+</html>
