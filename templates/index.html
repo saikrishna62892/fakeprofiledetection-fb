@@ -19,18 +19,6 @@
     <div class="main" style="padding: 85px;">
         <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
-            <form method="POST" class="appointment-form" style="padding-top: 0px;padding-bottom: 0px;" id="appointment-form-url">
-                <h5 align="center" style="color: #2c437f;">Paste Facebook Profile URL</h5>
-                <div class="form-row">
-                    <div class="col-lg-10" style="padding: 15px 15px 15px 15px;width: 80%">
-                        <input type="text" name="profile_url" id="profile_url" placeholder="Facebook Profile URL" required />
-                    </div>
-                    <div class="col-lg-2 form-submit" style="padding: 15px 15px 15px 15px;">
-                        <center><input type="submit" name="submit" id="submit" class="submit" value="Validate Profile"/></center>
-                    </div>
-                </div>
-            </form>
-            <h6 align="center">OR</h6>
             <form action="{{ url_for('predict')}}" method="POST" class="appointment-form" id="appointment-form" style="padding-top: 0px;padding-bottom: 15px;">                
                 <h5 align="center" style="color: #2c437f;">Manual Entry Form</h5>
                 <div class="form-row">
