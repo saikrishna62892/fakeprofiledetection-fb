@@ -152,9 +152,9 @@
             <div class="row" style="text-align: center;">
                 <div class="column">
                     {% if rfr_prediction == 0 %}
-                        <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : Fake</p></strong>
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : <span style="color: red;">Fake</span></p></strong>
                     {% else %}
-                        <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : Genuine</p></strong>
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : <span style="color: green;">Genuine</span></p></strong>
                     {% endif %}
                     <p>Classification Report</p>
                     <div class="table-responsive">
@@ -186,9 +186,9 @@
                 </div>
                 <div class="column" style="border-left: 2px solid #2c437f;">
                     {% if svm_prediction == 0 %}
-                        <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : Fake</p></strong>
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : <span style="color: red;">Fake</span></p></strong>
                     {% else %}
-                        <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : Genuine</p></strong>
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : <span style="color: green;">Genuine</span></p></strong>
                     {% endif %}
                     <p>Classification Report</p>
                     <div class="table-responsive">
@@ -220,9 +220,9 @@
                 </div>
                 <div class="column" style="border-left: 2px solid #2c437f;">
                     {% if fnn_prediction == 0 %}
-                        <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : Fake</p></strong>
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : <span style="color: red;">Fake</span></p></strong>
                     {% else %}
-                        <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : Genuine</p></strong>
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : <span style="color: green;">Genuine</span></p></strong>
                     {% endif %}
                     <p>Classification Report</p>
                     <div class="table-responsive">

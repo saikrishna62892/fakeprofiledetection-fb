@@ -37,6 +37,7 @@ def predict():
     sex_code = sex.map(sex_dict).astype(int)
     lang_code = int_features[3]
     
+    '''
     #Random forest prediction
     rfr_prediction = random_forest.predict([df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,lang_dict[lang_code]])
     
@@ -60,6 +61,8 @@ def predict():
     else :
         percent = 0
     return render_template('result.html', rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent)
+'''
+    return render_template('index.html')
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
