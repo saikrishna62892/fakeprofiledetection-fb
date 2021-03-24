@@ -91,16 +91,3 @@ y_test,y_pred = tstdata['class'],predictions
                        
 # Saving model to disk
 pickle.dump(trainer, open('neural_network.pkl','wb'))
-
-
-print len(x.columns)
-# Loading model to compare the results
-neural_network = pickle.load(open('neural_network.pkl','rb'))
-#print(random_forest.predict([[2, 9, 6,2,9,6,2]]))
-#prediction
-ds2 = ClassificationDataSet( len(x.columns), 1,nb_classes=2)
-lst = [2, 9, 6,2,9,6,2]
-ds2.addSample(lst,1)
-ds2._convertToOneOfMany( )
-prediction=neural_network.testOnClassData (dataset=ds2)
-print prediction

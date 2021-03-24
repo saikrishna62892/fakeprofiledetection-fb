@@ -70,11 +70,7 @@ print "training datasets.......\n"
 clf=RandomForestClassifier(n_estimators=40,oob_score=True)
 clf.fit(X_train,y_train)
 y_pred = clf.predict(X_test)
-report = classification_report(y_test, y_pred, target_names=['Fake','Genuine'])
+
+
 # Saving model to disk
 pickle.dump(clf, open('random_forest.pkl','wb'))
-pickle.dump(report, open('random_forest_report.pkl','wb'))
-
-# Loading model to compare the results
-#random_forest = pickle.load(open('random_forest.pkl','rb'))
-#print(random_forest.predict([[2, 9, 6,2,9,6,2]]))

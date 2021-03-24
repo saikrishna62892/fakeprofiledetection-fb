@@ -89,7 +89,3 @@ y_pred = clf.best_estimator_.predict(X_test)
 
 # Saving model to disk
 pickle.dump(clf, open('support_vector_machine.pkl','wb'))
-
-# Loading model to compare the results
-support_vector_machine = pickle.load(open('support_vector_machine.pkl','rb'))
-#print(support_vector_machine.predict([[2, 9, 6,2,9,6,2]]))
