@@ -39,8 +39,8 @@ def predict():
     
  
     #Random forest prediction
-    rfr_prediction = random_forest.predict([df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,lang_dict[lang_code]])
-    
+    #rfr_prediction = random_forest.predict([df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,lang_dict[lang_code]])
+    rfr_prediction=[0]
     #support vector machine prediction
     svm_prediction = support_vector.predict([df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,lang_dict[lang_code]])
     
