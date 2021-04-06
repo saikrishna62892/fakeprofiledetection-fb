@@ -1,22 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 28 12:24:20 2021
-
-@author: vamsi
-"""
-
 import numpy as np
 import pandas as pd
 from flask import Flask, request, render_template
 import pickle
 import sexmachine.detector as gender
-from pybrain.datasets import ClassificationDataSet
 
 app = Flask(__name__)
 random_forest = pickle.load(open('random_forest.pkl', 'rb'))
 support_vector = pickle.load(open('support_vector_machine.pkl', 'rb'))
-#naive_bayes = pickle.load(open('naive_bayes.pkl', 'rb'))
-neural_network = pickle.load(open('neural_network.pkl', 'rb'))
+naive_bayes = pickle.load(open('naive_bayes.pkl', 'rb'))
+#neural_network = pickle.load(open('neural_network.pkl', 'rb'))
 
 @app.route('/')
 def home():
@@ -52,12 +44,8 @@ def predict():
     #support vector machine prediction
     svm_prediction = support_vector.predict([df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,df['lang']])
     
-    #neural network prediction
-    ds2 = ClassificationDataSet( 7, 1,nb_classes=2)
-    lst = [df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,df['lang']]
-    ds2.addSample(lst,1)
-    ds2._convertToOneOfMany( )
-    fnn_prediction=neural_network.testOnClassData (dataset=ds2)
+    #naive_bayes prediction
+    nvb_prediction = naive_bayes.predict([df['statuses_count'],df['followers_count'],df['friends_count'],df['favourites_count'],df['listed_count'],sex_code,df['lang']])
     
     
     if rfr_prediction[0]==0 and svm_prediction[0]==0 and fnn_prediction[0]==0 :

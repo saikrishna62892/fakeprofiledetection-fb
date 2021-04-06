@@ -10,17 +10,13 @@ import pandas as pd
 import sexmachine.detector as gender
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
-
 """### **Function for reading dataset from csv files**"""
 
 def read_datasets():
     """ Reads users profile from csv files """
-    genuine_users = pd.read_csv("users.csv")
-    fake_users = pd.read_csv("fusers.csv")
-    x=pd.concat([genuine_users,fake_users])   
-    y=len(fake_users)*[0] + len(genuine_users)*[1]
-    return x,y
+    users = pd.read_csv(r'C:\Users\vamsi\Desktop\Project\fake profile detection fb\Code\data\processed_data.csv')
+    y=1337*[1] + 1481*[0]
+    return users,y
 
 """### **Function for predicting gender**"""
 
@@ -36,11 +32,10 @@ def predict_sex(name):
 
 def extract_features(x):
     lang_list = list(enumerate(np.unique(x['lang'])))   
-    lang_dict = { name : i for i, name in lang_list }   
-    print lang_dict          
+    lang_dict = { name : i for i, name in lang_list }             
     x.loc[:,'lang_code'] = x['lang'].map( lambda x: lang_dict[x]).astype(int)    
     x.loc[:,'sex_code']=predict_sex(x['name'])
-    feature_columns_to_use = ['statuses_count','followers_count','friends_count','favourites_count','listed_count','sex_code','lang_code']
+    feature_columns_to_use = ['created_at','location','statuses_count','followers_count','favourites_count','friends_count','sex_code','lang_code']
     x=x.loc[:,feature_columns_to_use]
     return x
 
