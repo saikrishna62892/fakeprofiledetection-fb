@@ -20,6 +20,7 @@ random_forest = pickle.load(open('random_forest.pkl', 'rb'))
 support_vector = pickle.load(open('support_vector_machine.pkl', 'rb'))
 #naive_bayes = pickle.load(open('naive_bayes.pkl', 'rb'))
 neural_network = pickle.load(open('neural_network.pkl', 'rb'))
+location_dict = pickle.load(open('location_dict.pkl', 'rb'))
 
 @app.route('/')
 def home():
@@ -36,11 +37,13 @@ def predict():
     #lang
     lang_dict = {'fr': 3, 'en': 1, 'nl': 6, 'de': 0, 'tr': 7, 'it': 5, 'gl': 4, 'es': 2, 'hi':8 ,'other': 9}
     
+    '''
     #location
     users = pd.read_csv(r'/home/vamsi82674/Desktop/fake profile detection fb/app/data/processed_data.csv')
     location_list = list(enumerate(np.unique(users['location'])))   
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
+    '''
                  
     #created_at
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(int_features[7], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
