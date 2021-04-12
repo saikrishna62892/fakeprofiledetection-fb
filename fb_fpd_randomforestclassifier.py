@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 def read_datasets():
     """ Reads users profile from csv files """
-    users = pd.read_csv(r'C:\Users\vamsi\Desktop\Project\fake profile detection fb\Code\data\processed_data.csv')
+    users = pd.read_csv(r'/home/vamsi82674/Desktop/fake profile detection fb/app/data/processed_data.csv')
     y=1337*[1] + 1481*[0]
     return users,y
 
@@ -33,9 +33,12 @@ def predict_sex(name):
 def extract_features(x):
     lang_list = list(enumerate(np.unique(x['lang'])))   
     lang_dict = { name : i for i, name in lang_list }             
-    x.loc[:,'lang_code'] = x['lang'].map( lambda x: lang_dict[x]).astype(int)    
+    x.loc[:,'lang_code'] = x['lang'].map( lambda x: lang_dict[x]).astype(int)
+    location_list = list(enumerate(np.unique(x['location'])))   
+    location_dict = { name : i for i, name in location_list }             
+    x.loc[:,'location_code'] = x['location'].map( lambda x: location_dict[x]).astype(int)    
     x.loc[:,'sex_code']=predict_sex(x['name'])
-    feature_columns_to_use = ['created_at','location','statuses_count','followers_count','favourites_count','friends_count','sex_code','lang_code']
+    feature_columns_to_use = ['created_at','location_code','statuses_count','followers_count','favourites_count','friends_count','sex_code','lang_code']
     x=x.loc[:,feature_columns_to_use]
     return x
 
@@ -65,7 +68,6 @@ print "training datasets.......\n"
 clf=RandomForestClassifier(n_estimators=40,oob_score=True)
 clf.fit(X_train,y_train)
 y_pred = clf.predict(X_test)
-
 
 # Saving model to disk
 pickle.dump(clf, open('random_forest.pkl','wb'))

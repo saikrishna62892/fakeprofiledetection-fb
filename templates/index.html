@@ -17,6 +17,7 @@
 <body>
     <div class="main" style="padding: 85px;">
         <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            {{ features }}
             <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
             <form action="{{ url_for('predict')}}" method="POST" class="appointment-form" id="appointment-form" style="padding-top: 0px;padding-bottom: 15px;">
                 <h5 align="center" style="color: #2c437f;">Facebook Profile URL Form</h5>
@@ -45,6 +46,7 @@
                     <div class="select-list col-lg-4" style="padding: 15px 15px 15px 15px;">
                         <select name="language" id="language" style="background-color: #fff;color: #7d7581;">
                             <option selcted value="" >Language</option>
+                            <option value="hi">Hindi</option>
                             <option value="en">English</option>
                             <option value="it">Italian</option>
                             <option value="es">Spanish</option>
@@ -71,7 +73,7 @@
                       <input type="number" name="favourites_count" id="favourites_count" placeholder="Favourites Count" required />
                     </div>
                     <div class="col" style="padding: 15px 15px 15px 15px;">
-                      <input placeholder="Created_at" class="textbox-n" type="text" onfocus="(this.type='date')" id="date">
+                      <input type="text" name="date" id="date" placeholder="Created_at" class="textbox-n"  onfocus="(this.type='date')" >
                     </div>
                 </div>   
                 <textarea style="padding: 15px 15px 15px 15px;" type="text" name="about" id="about" rows="2" placeholder="About / Bio"></textarea> 
