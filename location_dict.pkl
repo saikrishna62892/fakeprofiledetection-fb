@@ -1,0 +1,5041 @@
+(dp0
+Fnan
+I0
+sS'Astro Plane'
+p1
+I84
+sS'Calif\xc3\xb3rnia'
+p2
+I231
+sS'Agg Town,Tx'
+p3
+I53
+sS'Rossano Veneto'
+p4
+I1028
+sS'A Daydream Away'
+p5
+I42
+sS'Detroit,Mi'
+p6
+I355
+sS'No Mundo Dos Rebeldes \xe2\x99\xa5'
+p7
+I834
+sS'Serramazzoni (Modena), Italy'
+p8
+I1114
+sS'Piemonte '
+p9
+I931
+sS'Liverpool'
+p10
+I646
+sS'Italy - Sardinya Island'
+p11
+I572
+sS'Altadena, Ca,'
+p12
+I61
+sS'{minha casa} -qq'
+p13
+I1644
+sS'Banjarmasin, Indonesia'
+p14
+I119
+sS'Piacenza, Italy'
+p15
+I930
+sS'Compton, CA / USC'
+p16
+I303
+sS'Brescia'
+p17
+I186
+sS'Santa B\xc3\xa1rbara D&#39;Oeste - SP'
+p18
+I1074
+sS'RUSSELLVILLE KY 270 , DA VILLE'
+p19
+I974
+sS'En algun lugar del mundo!'
+p20
+I389
+sS'NY.'
+p21
+I789
+sS'Jember, Indonesia'
+p22
+I589
+sS'MARS. \xe2\x82\xaa \xc3\xb8 lll \xc2\xb7o.'
+p23
+I676
+sS'South Korea'
+p24
+I1144
+sS'Genova'
+p25
+I442
+sS'Ca'
+p26
+I216
+sS'Z\xc3\xbcrich'
+p27
+I1389
+sS'wit diggy simmons'
+p28
+I1638
+sS'D(M)V'
+p29
+I325
+sS'Underwater with Zayn'
+p30
+I1277
+sS'NYC'
+p31
+I790
+sS'Arizona'
+p32
+I76
+sS'Cuenca, Ecuador'
+p33
+I319
+sS'Goldsboro,NC'
+p34
+I461
+sS'United States of America'
+p35
+I1281
+sS'In Your Heart :)'
+p36
+I530
+sS'Colorado Springs'
+p37
+I301
+sS'-23.419814, -51.891195'
+p38
+I11
+sS'East Coast, USA'
+p39
+I379
+sS'studio'
+p40
+I1603
+sS'Under the Mountain'
+p41
+I1274
+sS'Ohio'
+p42
+I858
+sS'Ferrara'
+p43
+I413
+sS'sangatta - malang , Indonesia'
+p44
+I1588
+sS'Gradoli'
+p45
+I464
+sS'In The Sky/In ya Girl'
+p46
+I527
+sS'patria est ubicumque est bene'
+p47
+I1561
+sS'Las Vegas'
+p48
+I632
+sS'Pasadena'
+p49
+I905
+sS'In the middle of nowhere=]'
+p50
+I537
+sS'Padova, Italy'
+p51
+I886
+sS'Broward County Florida'
+p52
+I195
+sS'Messina'
+p53
+I712
+sS'LONDON.'
+p54
+I622
+sS'Castle Of Quotes'
+p55
+I259
+sS'DC,NY,LA'
+p56
+I330
+sS'Neverland'
+p57
+I816
+sS'In your house!'
+p58
+I542
+sS'mexico'
+p59
+I1523
+sS'mandaluyong'
+p60
+I1517
+sS'In The Darkness'
+p61
+I525
+sS'indiana'
+p62
+I1481
+sS'Rio Grande - BR'
+p63
+I999
+sS'turin'
+p64
+I1618
+sS'Brighton'
+p65
+I188
+sS'Reggio Emilia, Italy'
+p66
+I983
+sS'SLICKTOWN'
+p67
+I1039
+sS'cachoeirinha'
+p68
+I1415
+sS'Budapest, Magyarorsz\xc3\xa1g'
+p69
+I201
+sS'Italy - Florence'
+p70
+I571
+sS'Saquarema'
+p71
+I1082
+sS'World wide'
+p72
+I1374
+sS'cardiff, wales.'
+p73
+I1417
+sS'In my own world'
+p74
+I533
+sS'127.0.0.1 hihihi'
+p75
+I17
+sS'Italia, Roma'
+p76
+I562
+sS'mi'
+p77
+I1525
+sS'NEW  YORK CITY'
+p78
+I783
+sS'Narnia for famous,Italy for me'
+p79
+I801
+sS'Kowloon, Hong Kong'
+p80
+I612
+sS'Conegliano, Treviso'
+p81
+I306
+sS'Casoria, Italy'
+p82
+I253
+sS'nuoro '
+p83
+I1545
+sS'MICHIGAN!'
+p84
+I677
+sS'San Don\xc3\xa0 di Piave'
+p85
+I1064
+sS'Swag town (:'
+p86
+I1164
+sS'LA'
+p87
+I619
+sS'Smokers Section w/ Bob Marley'
+p88
+I1134
+sS'Walnut Grove, Minnesota'
+p89
+I1352
+sS'New Providence, NJ'
+p90
+I820
+sS'Where you wanna be ;)'
+p91
+I1366
+sS'Porto Velho,Rond\xc3\xb4nia.'
+p92
+I952
+sS'indonesia, east java'
+p93
+I1483
+sS'Roma Caput Mundi.'
+p94
+I1011
+sS'Jalhay B-4845'
+p95
+I585
+sS'In the Spirit'
+p96
+I534
+sS'Aversa,Caserta'
+p97
+I102
+sS'imperia, italy'
+p98
+I1464
+sS'Waiting for Justin'
+p99
+I1350
+sS'Baguio City, Philippines'
+p100
+I111
+sS'Chicago, IL'
+p101
+I277
+sS'Norwich'
+p102
+I846
+sS'Venlo, The Netherlands'
+p103
+I1311
+sS'UK.'
+p104
+I1263
+sS'Genova | I \xe2\x99\xa5 Deutschland'
+p105
+I444
+sS'immersa nella cultura pop'
+p106
+I1463
+sS'Duque de Caxias'
+p107
+I373
+sS'On your screen'
+p108
+I871
+sS'Bari, IT'
+p109
+I125
+sS'Andora, SV - Italy'
+p110
+I69
+sS'Natal - RN'
+p111
+I805
+sS'Oldbury'
+p112
+I863
+sS'Newport News [e]'
+p113
+I831
+sS'In The Kitchen With Your Mom'
+p114
+I526
+sS'somewhere'
+p115
+I1595
+sS'Milano, Mexico'
+p116
+I741
+sS'Johannesburg, South Africa'
+p117
+I593
+sS'ATL, GLOBAL'
+p118
+I45
+sS'Detroit Atlanta New York'
+p119
+I352
+sS'Italy, Belluno'
+p120
+I575
+sS'Spain'
+p121
+I1146
+sS'#Gerenzano #Casalpusterlengo'
+p122
+I3
+sS'The SUNSHINE state :)'
+p123
+I1215
+sS'\xc3\x9cT: 19.42923,-99.204888'
+p124
+I1652
+sS'Mumbai,India'
+p125
+I774
+sS'India'
+p126
+I545
+sS'detroit'
+p127
+I1430
+sS'Milano circa'
+p128
+I732
+sS'Milan'
+p129
+I720
+sS'Pune '
+p130
+I963
+sS'Houston, TX'
+p131
+I503
+sS'sofia spadoni.\xe2\x9d\xa4'
+p132
+I1594
+sS'Yo man house !'
+p133
+I1378
+sS'Tangerang'
+p134
+I1195
+sS'Where The Wilder Things Are'
+p135
+I1362
+sS'Mongolia'
+p136
+I758
+sS'Catania e provincia'
+p137
+I262
+sS'19 - Rimini, Italy'
+p138
+I21
+sS'Santo Stefano Lodigiano'
+p139
+I1079
+sS'london ontario'
+p140
+I1507
+sS'#23'
+p141
+I2
+sS'SW Florida and Massachusetts'
+p142
+I1045
+sS'Everywhere'
+p143
+I398
+sS'dallas texas'
+p144
+I1428
+sS'sacramento'
+p145
+I1583
+sS'Salmon Idaho'
+p146
+I1054
+sS'DISAGIOLAND'
+p147
+I332
+sS'\xc3\x9cT: 51.7022622,7.8212704'
+p148
+I1663
+sS'Udine & London'
+p149
+I1269
+sS'Medan, Indonesia'
+p150
+I706
+sS'Milano '
+p151
+I728
+sS'Tokyo, Japan'
+p152
+I1221
+sS'On the way to heaven :D'
+p153
+I870
+sS'Rovigo - Venezia'
+p154
+I1031
+sS'Italy '
+p155
+I566
+sS'Denver USA'
+p156
+I348
+sS'Bassano Del Grappa'
+p157
+I130
+sS'Paris, Europe'
+p158
+I901
+sS'in Paris :]'
+p159
+I1467
+sS'Lampung'
+p160
+I628
+sS'Curitiba Pr'
+p161
+I321
+sS'Quezon City / Spain / China'
+p162
+I967
+sS'Santo domingo'
+p163
+I1080
+sS'Pittsburgh, Pa'
+p164
+I938
+sS"Cava De' Tirreni"
+p165
+I264
+sS'creative director'
+p166
+I1426
+sS'Jesolo (VE)'
+p167
+I591
+sS'US, Pittsburgh Pa.'
+p168
+I1265
+sS'Viadana MN, Italy'
+p169
+I1318
+sS'ATLANTA'
+p170
+I46
+sS'Cold Canada'
+p171
+I297
+sS'TargatoNA'
+p172
+I1199
+sS'Laredo Tx Baby!'
+p173
+I630
+sS'CityWhere TheSkinny NiggazDie'
+p174
+I291
+sS'SAKS FIFTH AVENUE'
+p175
+I1034
+sS'Stockton, Ca'
+p176
+I1157
+sS'washington, pa'
+p177
+I1629
+sS'Boston-Milan'
+p178
+I173
+sS'Sugar Land, Tx'
+p179
+I1161
+sS'S\xc3\xa3o Gabriel RS'
+p180
+I1176
+sS'TORRE PELLICE ( TO )'
+p181
+I1189
+sS'Taormina'
+p182
+I1196
+sS'Stalker much?'
+p183
+I1151
+sS'San Benedetto Tronto (Italy)'
+p184
+I1060
+sS'locorotondo'
+p185
+I1505
+sS'Los Angeles, CA.'
+p186
+I664
+sS'KL, Malaysia'
+p187
+I598
+sS'Modica'
+p188
+I755
+sS'Chicago'
+p189
+I276
+sS'The road less taken..'
+p190
+I1217
+sS'Dallas, tx'
+p191
+I337
+sS'Chioggia (VE)'
+p192
+I281
+sS'rome'
+p193
+I1582
+sS'VA minded'
+p194
+I1290
+sS'Motorboating @BreastWhisperer'
+p195
+I771
+sS'Badaha'
+p196
+I110
+sS'Manchester, NH'
+p197
+I690
+sS'Italy, Correggio (RE)'
+p198
+I576
+sS'houstatlantavegas :)'
+p199
+I1455
+sS'ATL \xe2\x9c\x88 Baltimore'
+p200
+I44
+sS"in fuga dallo Chateau d'If"
+p201
+I1470
+sS'Denver, CO'
+p202
+I349
+sS'Northside'
+p203
+I844
+sS'Athens \xc3\x82\xc2\xb7 Berlin \xc3\x82\xc2\xb7 London'
+p204
+I86
+sS'Temse, Belgium / Paris, France'
+p205
+I1203
+sS'Ita'
+p206
+I558
+sS'Atlanta\xc2\xab \xc2\xbbBoro'
+p207
+I97
+sS'Copenhagen'
+p208
+I308
+sS'ITALY Milan'
+p209
+I512
+sS'Philippines, Going to America!'
+p210
+I926
+sS'Eye of the euro-storm'
+p211
+I404
+sS'World Wide Mind'
+p212
+I1373
+sS'September 1, Platform 9 \xc2\xbe '
+p213
+I1110
+sS'earth'
+p214
+I1435
+sS'Turin - Italy'
+p215
+I1253
+sS'Novara'
+p216
+I848
+sS'Genova, Italian Sultanate'
+p217
+I445
+sS'montepulciano stazione '
+p218
+I1533
+sS'45.105605,7.379643'
+p219
+I26
+sS'London, UK'
+p220
+I654
+sS'Jakarta,INDONESIA'
+p221
+I583
+sS'Montcler'
+p222
+I762
+sS'HOUSTATLANTAVEGAS'
+p223
+I478
+sS'Terracina'
+p224
+I1206
+sS'\xe2\x9c\x88\xe2\x9c\x88\xe2\x98\x81'
+p225
+I1676
+sS'Rome,Italy'
+p226
+I1024
+sS'you never know'
+p227
+I1643
+sS'piemonte, monferrato'
+p228
+I1569
+sS'o Reggio Emilia o Milano'
+p229
+I1546
+sS'Pescara'
+p230
+I920
+sS'#VIPvillE'
+p231
+I7
+sS'5 minuti e arrivo'
+p232
+I29
+sS'Tra le ninfee di Monet'
+p233
+I1239
+sS'Bieberland'
+p234
+I151
+sS'Under the mistletoe \xe2\x99\xa5'
+p235
+I1275
+sS'Milano, Asbury Park'
+p236
+I735
+sS'Genoa (Italy)'
+p237
+I440
+sS'torino - italy'
+p238
+I1615
+sS'\xee\x88\xb1\xee\x81\x87\xee\x8c\x8c\xee\x81\x84'
+p239
+I1678
+sS'On The Come Up!'
+p240
+I867
+sS'Venezia, Italia'
+p241
+I1307
+sS'lake Jackson'
+p242
+I1499
+sS'Bogor, West Java Of Indonesia'
+p243
+I160
+sS'Cascina'
+p244
+I250
+sS"vicedirettore de l'Unit\xc3\xa0"
+p245
+I1627
+sS'\xd0\x90\xd1\x87\xd0\xb8\xd0\xbd\xd1\x81\xd0\xba'
+p246
+I1669
+sS'Buenos Aires, Argentina.'
+p247
+I203
+sS'soundcloud.com/ockumsrazor'
+p248
+I1598
+sS'Milano - Italy'
+p249
+I729
+sS'North Carolina'
+p250
+I838
+sS'45.472137,9.208698'
+p251
+I27
+sS'Olbia'
+p252
+I862
+sS'Houston, Texas'
+p253
+I504
+sS'Norfolk, VA/ Los Angeles, CA'
+p254
+I836
+sS'Norman, OK'
+p255
+I837
+sS'the netherlands'
+p256
+I1613
+sS'London Ontario Canada'
+p257
+I651
+sS'Cologne, Germany'
+p258
+I298
+sS'Georgia :P'
+p259
+I452
+sS'queens  newyork'
+p260
+I1577
+sS'Napoli.'
+p261
+I799
+sS'Varese - Italy'
+p262
+I1301
+sS'Romagna, Italy'
+p263
+I1015
+sS'Decatur, Ga'
+p264
+I343
+sS'Newport Beach, CA'
+p265
+I830
+sS'Medan,indonesia'
+p266
+I707
+sS'Georgia'
+p267
+I451
+sS'Pennsylvania'
+p268
+I912
+sS'montesarchio'
+p269
+I1534
+sS'Philadelphia'
+p270
+I921
+sS'mcz'
+p271
+I1520
+sS'chile'
+p272
+I1422
+sS'Oristano, Granada, Leicester'
+p273
+I876
+sS'United Kingdom.'
+p274
+I1279
+sS'Palermo/Roma'
+p275
+I892
+sS'Pernambuco, Brasil.'
+p276
+I916
+sS'CALIFORNIA'
+p277
+I207
+sS'12 de Octubre! LATINGIRL'
+p278
+I16
+sS'In the middle of Nowhere'
+p279
+I536
+sS'Hatfield, Hertfordshire'
+p280
+I482
+sS'S\xc3\xa3o Roque / SP'
+p281
+I1184
+sS'In the clouds'
+p282
+I535
+sS'Piracicaba S/P'
+p283
+I934
+sS'LOS ANGELES | ATLANTA'
+p284
+I623
+sS'San Piero a Sieve'
+p285
+I1070
+sS'Prato'
+p286
+I956
+sS'Rio de Janeiro \xc3\xb5/'
+p287
+I1002
+sS'Pecalukan,Tretes'
+p288
+I909
+sS'UNITED STATES OF AMERICA'
+p289
+I1264
+sS'VA'
+p290
+I1289
+sS'Cortona'
+p291
+I311
+sS'Devilsworld'
+p292
+I358
+sS'Jakarta'
+p293
+I582
+sS'Cologno Monzese MI'
+p294
+I299
+sS'\xc3\x9cT: -6.149756,107.031114'
+p295
+I1647
+sS'Moon walking on mars'
+p296
+I767
+sS"in boo bear's arms"
+p297
+I1469
+sS'Chaddesden, Derby, England'
+p298
+I270
+sS'Parma'
+p299
+I903
+sS'Over the rainbow'
+p300
+I882
+sS'Hollywood Cemetary'
+p301
+I495
+sS'Des Moines'
+p302
+I350
+sS'Italy, milano'
+p303
+I579
+sS'Lithuania'
+p304
+I643
+sS'Brazilian Soul'
+p305
+I185
+sS'Liguria Diano Marina'
+p306
+I641
+sS'p\xc3\xa3o de a\xc3\xa7ucar-AL'
+p307
+I1575
+sS'Bloemfontein'
+p308
+I156
+sS'Dark Eyes'
+p309
+I340
+sS'Be the change you wish to see.'
+p310
+I135
+sS'Connecticut'
+p311
+I307
+sS'salento'
+p312
+I1584
+sS'Napoli'
+p313
+I798
+sS'Missouri'
+p314
+I752
+sS'Roma, Italia'
+p315
+I1013
+sS'Nel tuo armadio'
+p316
+I812
+sS'vacaville'
+p317
+I1624
+sS'Rovigo'
+p318
+I1030
+sS'Piacenza'
+p319
+I929
+sS'palermo'
+p320
+I1558
+sS'Maniago'
+p321
+I696
+sS'gualeguaychu'
+p322
+I1448
+sS'In Ferno'
+p323
+I522
+sS'Decatur'
+p324
+I342
+sS'United states'
+p325
+I1282
+sS'iPhone: 42.935165,-80.301414'
+p326
+I1458
+sS'Among the Stars'
+p327
+I65
+sS'lecce'
+p328
+I1503
+sS'Na frente do pano verde'
+p329
+I793
+sS'LA California'
+p330
+I620
+sS'malaysia'
+p331
+I1516
+sS'1055 5th Ave, San Diego, CA'
+p332
+I15
+sS'Italia'
+p333
+I559
+sS'Massone, Arco (TN)'
+p334
+I705
+sS'CANADA'
+p335
+I208
+sS'Edinburgh'
+p336
+I382
+sS'prov. di Milano'
+p337
+I1574
+sS'headed up'
+p338
+I1449
+sS'MNL'
+p339
+I680
+sS'Italia,Marche,Jesi'
+p340
+I564
+sS'Veneto - Italia'
+p341
+I1304
+sS'Genoa, Italy'
+p342
+I441
+sS'Pordenone'
+p343
+I948
+sS'cosenza'
+p344
+I1425
+sS'The wild side'
+p345
+I1219
+sS'Nova Milanese'
+p346
+I847
+sS'Melbourne, Australia'
+p347
+I708
+sS'Sweden'
+p348
+I1165
+sS'1576 N.  Milwaukee Avenue'
+p349
+I18
+sS'Making The Label'
+p350
+I686
+sS'En San Jose Costa Rica'
+p351
+I388
+sS'Jamaica! Bitch'
+p352
+I586
+sS'\xc3\x9cT: 42.68889,-83.282942'
+p353
+I1659
+sS'maringa'
+p354
+I1519
+sS'Ros\xc3\xa0 - North-East of Italy'
+p355
+I1029
+sS'wherever your heart is'
+p356
+I1636
+sS'giornalista'
+p357
+I1447
+sS'Scotland'
+p358
+I1096
+sS'FirenzE'
+p359
+I417
+sS'Pontiac Michigan'
+p360
+I947
+sS'London UK.'
+p361
+I653
+sS'Serang, Indonesia'
+p362
+I1111
+sS"l\xc3\xa0 nell'abruzzo tutto d'or"
+p363
+I1513
+sS'caserta'
+p364
+I1419
+sS'Firenze'
+p365
+I418
+sS'Monza - Milano'
+p366
+I765
+sS'London,UK'
+p367
+I655
+sS'medan'
+p368
+I1521
+sS'Victoria, BC, Canada'
+p369
+I1327
+sS'Here, there and everywhere...'
+p370
+I489
+sS'Between her thighs'
+p371
+I149
+sS"Brasil('L"
+p372
+I181
+sS'ROMA'
+p373
+I973
+sS'Lercara Friddi (PA)'
+p374
+I639
+sS'Ukraine, Crimea'
+p375
+I1271
+sS'Germany, Bavaria'
+p376
+I456
+sS'u.s.a'
+p377
+I1620
+sS'Albay, Philippines'
+p378
+I58
+sS'Drammen, Norway'
+p379
+I368
+sS'Oristano'
+p380
+I875
+sS'Sunny Southern Cali!!'
+p381
+I1162
+sS'Langley BC'
+p382
+I629
+sS'Lake Charles'
+p383
+I627
+sS'OLTREMARE'
+p384
+I852
+sS'Maputo'
+p385
+I699
+sS'everywhere with my Haz \xe2\x99\xa1'
+p386
+I1439
+sS'Pennsylvania, USA'
+p387
+I914
+sS"is in Justin's arms."
+p388
+I1485
+sS'Genova Italy'
+p389
+I443
+sS'Emilia Romagna, Italy'
+p390
+I386
+sS'Yogykarta Istimewa'
+p391
+I1380
+sS'Creazioni in fimo'
+p392
+I316
+sS'between Milan and London'
+p393
+I1406
+sS"Your Mom's Vagina :) mmmm warm"
+p394
+I1385
+sS'Canada,Montreal'
+p395
+I239
+sS'San Gimignano'
+p396
+I1067
+sS'Saronno'
+p397
+I1087
+sS'Anywhere but here'
+p398
+I72
+sS'S\xc3\xa3o Paulo, Brazil'
+p399
+I1182
+sS'westcoast USA'
+p400
+I1630
+sS'Tweeting from the Grave'
+p401
+I1258
+sS'Down by da river........'
+p402
+I367
+sS'Genova-Dubrovnik'
+p403
+I447
+sS'Torino'
+p404
+I1226
+sS'Bassano del Grappa'
+p405
+I131
+sS'Network/Marketing'
+p406
+I814
+sS'FIRENZE'
+p407
+I405
+sS'Indiana'
+p408
+I546
+sS'MINAS GERAIS.BH'
+p409
+I678
+sS'Mongrando'
+p410
+I759
+sS'Trippple D'
+p411
+I1245
+sS'Verona'
+p412
+I1312
+sS'Italy (:'
+p413
+I568
+sS'Dueville (VI)'
+p414
+I372
+sS'Clinton ut'
+p415
+I296
+sS'Atlanta'
+p416
+I87
+sS'Rio Grande do Sul'
+p417
+I1000
+sS'W3 International'
+p418
+I1340
+sS'Sicilia ( ma non solo)'
+p419
+I1122
+sS'T\xc3\xbcrkiye'
+p420
+I1259
+sS'Kigali'
+p421
+I607
+sS'chokin a bitch'
+p422
+I1423
+sS'hidden n da ville; cloud 9-10'
+p423
+I1451
+sS'Jacksonville,Fl'
+p424
+I581
+sS'Bologna - Reggio Emilia'
+p425
+I165
+sS'Kensington Garden.'
+p426
+I604
+sS'\xc3\x9cT: 14.5821623,121.0872212'
+p427
+I1651
+sS'Varese, Italia'
+p428
+I1302
+sS'Roma, IT'
+p429
+I1012
+sS'Agrigento'
+p430
+I54
+sS"Quartu Sant'Elena"
+p431
+I965
+sS'Brooklyn/Albany'
+p432
+I194
+sS'Internets'
+p433
+I552
+sS'philippines'
+p434
+I1567
+sS'Global'
+p435
+I460
+sS'Tolland, Connecticut'
+p436
+I1223
+sS'Madagascar (Italy)'
+p437
+I681
+sS'Verona (Italy)'
+p438
+I1313
+sS'Vancouver, BC  Canada'
+p439
+I1298
+sS'Plasya de Rosarito'
+p440
+I943
+sS'University Of SD'
+p441
+I1284
+sS'Cape Town South Africa'
+p442
+I243
+sS'dany y'
+p443
+I1429
+sS'Cusano Milanino'
+p444
+I323
+sS'Gorizia - Cordovado'
+p445
+I463
+sS"Champoluc, Vall\xc3\xa9e d'Aoste"
+p446
+I271
+sS'Carpenedolo (BS)'
+p447
+I248
+sS'Florentine @BRX, my heart @DC'
+p448
+I424
+sS'Qui'
+p449
+I968
+sS'With Horan / 20-05'
+p450
+I1368
+sS'Belluno'
+p451
+I143
+sS'bh'
+p452
+I1407
+sS'Hattiesburg, MS'
+p453
+I483
+sS'Manila | Phil.'
+p454
+I698
+sS'Siracusa, Italy'
+p455
+I1130
+sS'on your mind'
+p456
+I1549
+sS'under the sky'
+p457
+I1622
+sS'FREE CHICO FORTI '
+p458
+I406
+sS'Atlanta,Georgia'
+p459
+I96
+sS'Crotone'
+p460
+I318
+sS'Avellino'
+p461
+I101
+sS'Portugal'
+p462
+I953
+sS'Mexico df'
+p463
+I715
+sS'Salento'
+p464
+I1049
+sS'Hattiesburg, Ms'
+p465
+I484
+sS'phillipines'
+p466
+I1568
+sS'Verona - Italy'
+p467
+I1314
+sS'Maine'
+p468
+I685
+sS'nowhere'
+p469
+I1544
+sS'\xe2\x99\xa5~!LONDON!~\xe2\x99\xa5'
+p470
+I1675
+sS'Dolo, Venezia, Italy'
+p471
+I362
+sS'Under The Mistletoe'
+p472
+I1273
+sS'Galleria'
+p473
+I439
+sS'Australia'
+p474
+I100
+sS'roma'
+p475
+I1580
+sS'Scandicci, Firenze, Italy'
+p476
+I1094
+sS'Monkey Island'
+p477
+I760
+sS'Casorate Primo; Pavia'
+p478
+I252
+sS'Washington, DC'
+p479
+I1357
+sS'Giugliano in Campania (NA)'
+p480
+I458
+sS"Pomigliano d'Arco, Napoli"
+p481
+I945
+sS'Plane Mode'
+p482
+I941
+sS'india'
+p483
+I1480
+sS'Hazlet, NJ 07735'
+p484
+I488
+sS'Greater Toronto Area'
+p485
+I467
+sS'everywhere'
+p486
+I1438
+sS'@ the marketplace'
+p487
+I39
+sS'Torino - Italy'
+p488
+I1228
+sS'orange county, ca'
+p489
+I1551
+sS'brescia'
+p490
+I1412
+sS'Paraiso de Pilipinas'
+p491
+I897
+sS'Deltona, Fl'
+p492
+I346
+sS'San Juan , Puerto Rico'
+p493
+I1069
+sS"breezy's land #duhhh"
+p494
+I1411
+sS'Sassari, Sardinia, Italy'
+p495
+I1090
+sS'Bieberville'
+p496
+I152
+sS'catania-taormina'
+p497
+I1421
+sS'Ft. Lauderdale, Florida'
+p498
+I435
+sS'Munich'
+p499
+I775
+sS'where you wish you could be'
+p500
+I1634
+sS'salerno '
+p501
+I1585
+sS'tabanan bali'
+p502
+I1607
+sS'On The Throne N Egypt'
+p503
+I868
+sS'Barcelona, Spain'
+p504
+I122
+sS'BO, Italy'
+p505
+I109
+sS'Sicilia'
+p506
+I1121
+sS'Toronto/Montreal'
+p507
+I1233
+sS'iSupportMB143'
+p508
+I1461
+sS'Edinburgh, Scotland'
+p509
+I383
+sS'(Caserta, Italy)'
+p510
+I9
+sS'Oltrona di San Mamette (Co)'
+p511
+I865
+sS'Detroit/MI'
+p512
+I357
+sS' Mantova & Parma (Italy)'
+p513
+I1
+sS'Jakarta.Indonesia'
+p514
+I584
+sS'Rio de Janeiro'
+p515
+I1001
+sS'HoustAtlantaVegas'
+p516
+I501
+sS'Harris County TX'
+p517
+I480
+sS'WORLDWIDE'
+p518
+I1346
+sS'World'
+p519
+I1371
+sS'Milano, Lombardia, Italia'
+p520
+I740
+sS'RJ'
+p521
+I972
+sS'CilikLand'
+p522
+I285
+sS'Brasil \xe2\x99\xa5&amp;#39;'
+p523
+I180
+sS'bastia u. (pg) italia'
+p524
+I1401
+sS'Rome'
+p525
+I1018
+sS'WIL- - \xe2\x9c\x88ATL'
+p526
+I1343
+sS'Roma'
+p527
+I1006
+sS'50 sfumature di Grinch'
+p528
+I30
+sS'San Fernando, CA'
+p529
+I1065
+sS'Ukraine \xe2\x99\xa5'
+p530
+I1270
+sS'Trieste, via Paduina 9a'
+p531
+I1244
+sS'Sevilla'
+p532
+I1115
+sS'Mocksville, nc.'
+p533
+I753
+sS'lucca'
+p534
+I1511
+sS'barcellona pozzo di gotto'
+p535
+I1399
+sS'CDT Anhanguera  - SP, Brasil'
+p536
+I211
+sS'Roma - Valderice (Trapani)'
+p537
+I1009
+sS'Forks'
+p538
+I428
+sS'canada'
+p539
+I1416
+sS'Michigan'
+p540
+I719
+sS'italia, tra argini del po,'
+p541
+I1490
+sS'Springtown, Texas'
+p542
+I1148
+sS':homenation: :inhome:'
+p543
+I37
+sS'Woodland Hills, CA'
+p544
+I1370
+sS'Somewhere Sunny.'
+p545
+I1136
+sS'Around The World'
+p546
+I80
+sS'Miami Beach'
+p547
+I716
+sS'Raleigh, North Carolina'
+p548
+I975
+sS'Venice, Italy'
+p549
+I1310
+sS'Amantea - Messina'
+p550
+I63
+sS'bekasi'
+p551
+I1402
+sS'brasil'
+p552
+I1410
+sS'South Africa'
+p553
+I1142
+sS'San Antionio, Tx'
+p554
+I1058
+sS'in your pocket (hopefully)'
+p555
+I1479
+sS'Great Grimsby England'
+p556
+I466
+sS'Brazil'
+p557
+I184
+sS'The time vortex'
+p558
+I1218
+sS'ATL'
+p559
+I43
+sS'Mystic Falls.'
+p560
+I779
+sS'amravati ,maharatra ,india'
+p561
+I1392
+sS'ATX'
+p562
+I47
+sS'ORLANDO ,FL'
+p563
+I854
+sS'Firenze, Italy'
+p564
+I419
+sS'WITHAston \xe2\x99\xa5'
+p565
+I1345
+sS'Abruzzo'
+p566
+I50
+sS'Risiedo in Fortaleza, Brasile'
+p567
+I1003
+sS'D\xc3\xbcsseldorf'
+p568
+I374
+sS'SEA'
+p569
+I1036
+sS'Staff/volunteers across the US'
+p570
+I1150
+sS'Shaker Heights'
+p571
+I1117
+sS"At where I'm at, be where I be"
+p572
+I85
+sS'Louisiana :)'
+p573
+I668
+sS'Cincinnati,ohio'
+p574
+I288
+sS'Colorado'
+p575
+I300
+sS'Dayton, Ohio'
+p576
+I341
+sS'Verona / Italy'
+p577
+I1315
+sS'Florence '
+p578
+I420
+sS'earth.'
+p579
+I1436
+sS'Vittoria (RG)'
+p580
+I1335
+sS'Il paese delle banane.'
+p581
+I515
+sS'pekanbaru'
+p582
+I1563
+sS'Look up ( must be outdoor )'
+p583
+I660
+sS'DC'
+p584
+I327
+sS'Cali'
+p585
+I226
+sS'Senorb\xc3\xac'
+p586
+I1109
+sS'BIrmingHam/ mOntgomerY'
+p587
+I107
+sS'L.A'
+p588
+I618
+sS'Naples'
+p589
+I795
+sS'Monza. Italia. '
+p590
+I766
+sS'where you at Brooklyn?'
+p591
+I1633
+sS'Manado'
+p592
+I688
+sS'Padova'
+p593
+I884
+sS'Osasco SP'
+p594
+I880
+sS'verona'
+p595
+I1626
+sS'Seatle, WA'
+p596
+I1100
+sS'Castelfranco Veneto, TV, Italy'
+p597
+I255
+sS'out da hood nto success'
+p598
+I1552
+sS'Florence, Oregon'
+p599
+I423
+sS'jakarta'
+p600
+I1495
+sS'Antarctica'
+p601
+I70
+sS'Venezia'
+p602
+I1305
+sS'Milano(circa)'
+p603
+I734
+sS'Amsterdam'
+p604
+I66
+sS'Billerica, MA'
+p605
+I153
+sS'Sydney, Australia'
+p606
+I1171
+sS'Tampa, Florida'
+p607
+I1194
+sS'Victoria, BC'
+p608
+I1325
+sS'Maglie - Milano'
+p609
+I684
+sS'Italy , Usa'
+p610
+I570
+sS'temple hills'
+p611
+I1609
+sS'Verso Sud'
+p612
+I1316
+sS'dihatimu \xe2\x99\xa5'
+p613
+I1433
+sS'Hogwarts'
+p614
+I491
+sS'Fricken Ocean'
+p615
+I433
+sS'Lucca, Italy'
+p616
+I672
+sS'soy argentino'
+p617
+I1601
+sS'Los Angeles'
+p618
+I661
+sS'Rome, Italy'
+p619
+I1022
+sS'Belgium/Spain/UK'
+p620
+I141
+sS'#ICEYgang'
+p621
+I4
+sS'Illinois'
+p622
+I516
+sS"Albaredo d'Adige, Verona "
+p623
+I57
+sS'NEW ORLEANS'
+p624
+I784
+sS'New Bern, NC'
+p625
+I817
+sS'london'
+p626
+I1506
+sS'Vancouver BC'
+p627
+I1296
+sS'S\xc3\xa3o Bernardo do Campo'
+p628
+I1174
+sS'Rome-ITALIA'
+p629
+I1025
+sS'Turin Italy'
+p630
+I1254
+sS'next to you.'
+p631
+I1541
+sS'san salvador'
+p632
+I1587
+sS'Pachino'
+p633
+I883
+sS'Palo Alto, CA'
+p634
+I895
+sS'Philippines/London'
+p635
+I927
+sS'Worldwide'
+p636
+I1377
+sS'Brooklyn NY \xe2\x9c\x88 WHORElando FL'
+p637
+I191
+sS'Iowa'
+p638
+I554
+sS'misskoko world(\xe2\x97\x95\xe2\x80\xbf\xe2\x97\x95 \xe2\x9c\xbf)'
+p639
+I1530
+sS'Modugno'
+p640
+I756
+sS'Texas'
+p641
+I1208
+sS'Torino - Italia'
+p642
+I1227
+sS'You&#39;r Soo Cutee !! \xe2\x9c\x93'
+p643
+I1384
+sS'U.S.'
+p644
+I1260
+sS'jln bangka 3a'
+p645
+I1496
+sS'Bandunng indonesia'
+p646
+I118
+sS'Bruxelles, Belgium'
+p647
+I197
+sS'Nata ai bordi di periferia.'
+p648
+I804
+sS'Bojonegoro'
+p649
+I162
+sS'Malaysia'
+p650
+I687
+sS'Castelleone'
+p651
+I258
+sS'Seattle area'
+p652
+I1102
+sS'46.140645,11.110448'
+p653
+I28
+sS'next door'
+p654
+I1540
+sS'food valley (nearby)'
+p655
+I1441
+sS'in my fantasy'
+p656
+I1473
+sS'S\xc3\xa3o Paulo, Brasil'
+p657
+I1181
+sS'Ciserano'
+p658
+I289
+sS'Bari Lecce IT, SanSebasti\xc3\xa1n ES'
+p659
+I124
+sS"Swipin' his card : )"
+p660
+I1167
+sS'micro chip n. 3'
+p661
+I1526
+sS'Sardinia'
+p662
+I1085
+sS'505'
+p663
+I31
+sS'Chicagoooo'
+p664
+I278
+sS'San Jose, CA'
+p665
+I1068
+sS'Studio Via Marchian\xc3\xb2 43 Foggia'
+p666
+I1160
+sS'Brooklyn, New York'
+p667
+I193
+sS'Bologna, Italy'
+p668
+I166
+sS'Jungle'
+p669
+I594
+sS'COMO'
+p670
+I214
+sS'catania'
+p671
+I1420
+sS'In the sky, with diamonds.'
+p672
+I538
+sS'Latina, Italy'
+p673
+I633
+sS'Bevilacqua, Verona, Italia'
+p674
+I150
+sS'Toowoomba, Australia'
+p675
+I1225
+sS'Kinsman, Ohio'
+p676
+I608
+sS'\xc3\x9cT: 32.772902,-89.133769'
+p677
+I1654
+sS'Washington D.C. Batch'
+p678
+I1353
+sS'Next to you.'
+p679
+I832
+sS'Volzhsky'
+p680
+I1339
+sS'Vicenza-Italy'
+p681
+I1323
+sS'WorldWide'
+p682
+I1375
+sS'Venice'
+p683
+I1309
+sS'Dalmine, Bergamo'
+p684
+I338
+sS'Minas ;*'
+p685
+I745
+sS'Sanremo'
+p686
+I1072
+sS'gatteo mare'
+p687
+I1445
+sS'\xc3\x9cT: 48.483436,-123.385259'
+p688
+I1662
+sS'Mortara'
+p689
+I768
+sS'\xe6\x97\xa5\xe6\x9c\xac Japan,Okazaki'
+p690
+I1677
+sS'Barcelona'
+p691
+I121
+sS'houma'
+p692
+I1454
+sS'Borghetto lodigiano'
+p693
+I169
+sS'in solitudine metropolitana'
+p694
+I1474
+sS'Andora | Italy'
+p695
+I68
+sS'8 Mile With Eminem\xe2\x99\xa1'
+p696
+I34
+sS'United Kingdom'
+p697
+I1278
+sS"Holding Ronan's Hand"
+p698
+I494
+sS'Bucarest, RO'
+p699
+I200
+sS'Greater Washingtin, DC region'
+p700
+I468
+sS'Falconara Marittima'
+p701
+I408
+sS'IN gud ole B.G.'
+p702
+I507
+sS'Home is where the heart is'
+p703
+I497
+sS'All world'
+p704
+I60
+sS'sulle colline di Tar100'
+p705
+I1605
+sS'Chattanooga, TN'
+p706
+I274
+sS'Pavia'
+p707
+I907
+sS'Enfield'
+p708
+I390
+sS'Torre del Greco'
+p709
+I1235
+sS'Pennsylvania, Philadelphia'
+p710
+I913
+sS'Italy - World'
+p711
+I573
+sS'New York City Suburbs'
+p712
+I825
+sS'\xc3\x9cT: -5.988371,106.0330444'
+p713
+I1645
+sS'Minturno'
+p714
+I750
+sS'Detroit/ Nationwide'
+p715
+I356
+sS'Pontedera'
+p716
+I946
+sS'Somewhere near you,Mich.'
+p717
+I1139
+sS'the 912 , 478 & 242'
+p718
+I1611
+sS'Sto qua. Meridione, Puglia.'
+p719
+I1156
+sS'517 Kelvin Rd Victoria BC'
+p720
+I32
+sS'Kepler 22-B '
+p721
+I606
+sS'qui.'
+p722
+I1578
+sS'European Union'
+p723
+I397
+sS'sei putih baru no.77a medan'
+p724
+I1593
+sS'Ischia'
+p725
+I556
+sS'Naples, Italy'
+p726
+I797
+sS'Viet Nam'
+p727
+I1329
+sS'Milano, Italia'
+p728
+I736
+sS'London'
+p729
+I649
+sS'Rome (Italy)'
+p730
+I1019
+sS'Tarvisio - UD - Italy'
+p731
+I1200
+sS'palembang, Indonesia'
+p732
+I1557
+sS'Upper East Side'
+p733
+I1285
+sS'Hogwarts\xe2\x80\xb9\xd0\xb7'
+p734
+I493
+sS'Trieste'
+p735
+I1242
+sS'Castellammare del Golfo'
+p736
+I257
+sS'Kolkata'
+p737
+I611
+sS'International'
+p738
+I551
+sS'Empireo'
+p739
+I387
+sS"Sittin'PRETTY"
+p740
+I1131
+sS'taijung'
+p741
+I1608
+sS'? physically in Italy '
+p742
+I38
+sS'Modena'
+p743
+I754
+sS'Pomezia'
+p744
+I944
+sS'Natal/Rn'
+p745
+I806
+sS'Boston, MA'
+p746
+I172
+sS'Yuma, Arizona'
+p747
+I1386
+sS'Genova, Italy '
+p748
+I446
+sS'Siena Italy'
+p749
+I1126
+sS'Portico di Romagna'
+p750
+I949
+sS'Sarah Drive Lake Charles'
+p751
+I1083
+sS'The Bahamas \xc2\xa6Atl \xe6\x88\x91\xe6\x84\x9b\xe5\x98\xb0\xe5\x98\xb0'
+p752
+I1211
+sS'In A Little Buble'
+p753
+I520
+sS'S\xc3\xa3o Paulo - Brasil'
+p754
+I1178
+sS'Sao Paulo, Brazil'
+p755
+I1081
+sS'\xc3\x9cT: -6.854104,106.305794'
+p756
+I1649
+sS'CandyLand !'
+p757
+I240
+sS'\xcf\x85\xce\xb7\xe2\x88\x82\xd1\x94\xd1\x8f \xd1\x82\xd0\xbd\xd1\x94 \xd0\xbc\xce\xb9\xd1\x95\xd1\x82\xe2\x84\x93\xd1\x94\xd1\x82\xcf\x83\xd1\x94'
+p758
+I1667
+sS'Dove mi porta il cuore!'
+p759
+I365
+sS'Vinhedo-Valinhos/SP/Brasil'
+p760
+I1333
+sS"BoJanglin' & Twixin' it"
+p761
+I157
+sS'NJ'
+p762
+I785
+sS'\xc3\x9cT: 32.783381,-96.789235'
+p763
+I1655
+sS'SUZANO,SP,BRASIL'
+p764
+I1044
+sS'SMOKING W. @FresH_BoY_Will'
+p765
+I1040
+sS'Permata Hijau, Jkt'
+p766
+I915
+sS'philadelphia'
+p767
+I1566
+sS'Basilea'
+p768
+I127
+sS'NY'
+p769
+I786
+sS'Turks and Caicos'
+p770
+I1257
+sS'italia'
+p771
+I1487
+sS'My mom&#39;s heart'
+p772
+I778
+sS'Little Rock'
+p773
+I644
+sS'Moscow, Russia'
+p774
+I769
+sS'Espa\xc3\xb1a-(Tarragona)'
+p775
+I394
+sS'procida,italy'
+p776
+I1573
+sS'Near the Tannh\xc3\xa4user Gate'
+p777
+I810
+sS'Glasgow!'
+p778
+I459
+sS'Cagliari'
+p779
+I218
+sS'ventimiglia'
+p780
+I1625
+sS'mg-Brasil'
+p781
+I1524
+sS'Scottsdale AZ'
+p782
+I1097
+sS'Terni,Italia'
+p783
+I1204
+sS'Abuja, Nigeria'
+p784
+I51
+sS'USA'
+p785
+I1266
+sS'Serra - ES - BR'
+p786
+I1112
+sS'Tagliacozzo AQ'
+p787
+I1190
+sS'Orlando Florida'
+p788
+I877
+sS'Dublin, Ireland'
+p789
+I371
+sS'WASH., D.C.'
+p790
+I1341
+sS"Romano d'Ezzelino"
+p791
+I1017
+sS'Volturara Irpina, AV '
+p792
+I1338
+sS'istanbul'
+p793
+I1486
+sS'Cuneo'
+p794
+I320
+sS'SOMEWHERE OVER THE RAINBOW'
+p795
+I1042
+sS'Mandaluyong, Philippines'
+p796
+I694
+sS'Yonkers,NY USA'
+p797
+I1381
+sS'Castelfiorentino, Firenze'
+p798
+I254
+sS'GENOVA Italy'
+p799
+I437
+sS'Campinas - SP Brasil'
+p800
+I237
+sS'Mostar'
+p801
+I770
+sS'terra'
+p802
+I1610
+sS'lario'
+p803
+I1500
+sS'Texas/ London / Hamburg'
+p804
+I1209
+sS'ribeirao pires'
+p805
+I1579
+sS"In Cody & Justin's pants (;"
+p806
+I521
+sS'impiegato amministrativo '
+p807
+I1465
+sS'BC, Canada'
+p808
+I105
+sS'17, Italy'
+p809
+I19
+sS'Army Base'
+p810
+I78
+sS'THE WORLD'
+p811
+I1188
+sS'Turin, Italy'
+p812
+I1255
+sS'World Wide'
+p813
+I1372
+sS'bolton'
+p814
+I1409
+sS'somewhere in panamaaa .'
+p815
+I1596
+sS'Canada'
+p816
+I238
+sS'nepal'
+p817
+I1538
+sS'Viam\xc3\xa3o'
+p818
+I1319
+sS'Victoria, BC Canada'
+p819
+I1326
+sS'California, USA'
+p820
+I230
+sS'Ancona'
+p821
+I67
+sS'Baltimore, Maryland USA'
+p822
+I116
+sS'Place that never sleeps'
+p823
+I939
+sS'Rieti'
+p824
+I992
+sS'Carapelle (fg)'
+p825
+I245
+sS'Jupiter.'
+p826
+I595
+sS'Gravellona Lomellina (PV)'
+p827
+I465
+sS'on my bed :)'
+p828
+I1548
+sS'\xe2\x98\xae\xe2\x99\xa1:D'
+p829
+I1674
+sS'Murphy, NC'
+p830
+I777
+sS'Boiano, Molise'
+p831
+I161
+sS'WHERE EVER THE CASH AT'
+p832
+I1342
+sS'Somewhere watching you'
+p833
+I1140
+sS'Tu mente'
+p834
+I1248
+sS'oned || ddlovato ||'
+p835
+I1550
+sS'J.A \xe2\x9c\x9do C.T'
+p836
+I580
+sS'Hartlepool'
+p837
+I481
+sS'Bakersfield, CA'
+p838
+I114
+sS"Where I'm At, Georgia"
+p839
+I1360
+sS'\xc3\x9cT: 42.655436,-71.156961'
+p840
+I1658
+sS'\xc3\x9cT: 6.554155,3.38261'
+p841
+I1665
+sS'moreno valley, california'
+p842
+I1535
+sS'Santa Monica'
+p843
+I1076
+sS'Denver'
+p844
+I347
+sS'Right huur'
+p845
+I994
+sS'South East England'
+p846
+I1143
+sS'Detroit Suburbs'
+p847
+I353
+sS'seattle , USA'
+p848
+I1592
+sS'Lost in space!'
+p849
+I667
+sS'Salvador BA'
+p850
+I1056
+sS'Sardinnia'
+p851
+I1086
+sS'Torino, Italy'
+p852
+I1230
+sS'Antares'
+p853
+I71
+sS'Bogor'
+p854
+I159
+sS'Tortuga'
+p855
+I1236
+sS'Italia, quella di una volta'
+p856
+I563
+sS'south carolina'
+p857
+I1599
+sS'United States'
+p858
+I1280
+sS'parken soreang,Bandung'
+p859
+I1560
+sS'lucknow'
+p860
+I1512
+sS'Far Far Away'
+p861
+I409
+sS'Mel\xc3\x83\xc2\xa8e\xc3\xa2\xe2\x80\x9e\xc2\xa2 Island'
+p862
+I710
+sS'NY,NY'
+p863
+I788
+sS'Somewhere being a motivater.'
+p864
+I1137
+sS'Ribeir\xc3\xa3o Preto -SP'
+p865
+I989
+sS'Swiss Balikpapan'
+p866
+I1168
+sS'Kuwait'
+p867
+I615
+sS'San Benedetto/Chieti'
+p868
+I1061
+sS'africa'
+p869
+I1391
+sS'MKE'
+p870
+I679
+sS'Yogyakarta'
+p871
+I1379
+sS'Anzano del Parco, Como'
+p872
+I74
+sS'Nigeria'
+p873
+I833
+sS'unnited states'
+p874
+I1623
+sS'Europe'
+p875
+I396
+sS'Europa'
+p876
+I395
+sS'genova,italia'
+p877
+I1446
+sS'Altamura (Bari)'
+p878
+I62
+sS'Bucarest'
+p879
+I199
+sS'Varese'
+p880
+I1300
+sS'Kuala Lumpur ,Malaysia .'
+p881
+I613
+sS"Selena Gomez's World"
+p882
+I1107
+sS'Prizren'
+p883
+I960
+sS'ORBETELLO ( Gr )'
+p884
+I853
+sS'Hong Kong'
+p885
+I498
+sS"Rignano sull'Arno - Florence"
+p886
+I995
+sS'Milano - Roma'
+p887
+I730
+sS'Brasil'
+p888
+I176
+sS'Philippines'
+p889
+I924
+sS'Ranai'
+p890
+I976
+sS'Gen\xc3\xa8ve - Suisse'
+p891
+I450
+sS'Emilia Romagna'
+p892
+I385
+sS'Monza'
+p893
+I764
+sS'Cincinnati, OH'
+p894
+I286
+sS'Philadelphia, Pa'
+p895
+I922
+sS'Sicilia \xe2\x80\xa2 South Italy'
+p896
+I1123
+sS'Oklahoma City'
+p897
+I860
+sS'south toscana & south romagna'
+p898
+I1600
+sS'DC, Maryland, Virginia (DMV)'
+p899
+I329
+sS'Nepal'
+p900
+I813
+sS'South Wales'
+p901
+I1145
+sS'Camden Town'
+p902
+I234
+sS'Casalecchio di Reno'
+p903
+I249
+sS'Sandhurst'
+p904
+I1071
+sS'St. Louis, MO'
+p905
+I1149
+sS'Cosenza'
+p906
+I312
+sS'Parma, Cleveland .'
+p907
+I904
+sS'Positano, Italy'
+p908
+I954
+sS'malang'
+p909
+I1515
+sS'Los Angeles, CA'
+p910
+I662
+sS'BeiJing'
+p911
+I138
+sS'Sanremo, Italia'
+p912
+I1073
+sS'Bandung'
+p913
+I117
+sS'lafayette, LA'
+p914
+I1498
+sS'Savona Italy'
+p915
+I1093
+sS'Vancouver, BC'
+p916
+I1297
+sS'Clarksboro NJ'
+p917
+I292
+sS'ISTANBUL'
+p918
+I510
+sS'Mexico'
+p919
+I714
+sS'Genova. Eastern Riviera. Italy'
+p920
+I449
+sS'In the south.'
+p921
+I540
+sS'ITALY_ ( RA ) _ Faenza'
+p922
+I513
+sS'Sassari'
+p923
+I1089
+sS'Chesterfield, MA'
+p924
+I275
+sS'INDIA'
+p925
+I508
+sS'Uzzano - Pistoia'
+p926
+I1288
+sS'Reggio Emilia (Italy)'
+p927
+I982
+sS'detroit eastside'
+p928
+I1431
+sS'\xc3\x9cT: -6.37377,106.863247'
+p929
+I1648
+sS'41.001606,16.876919'
+p930
+I24
+sS'Milano, Italy '
+p931
+I738
+sS'Arsago Seprio (VA)'
+p932
+I81
+sS'Brighton, UK'
+p933
+I189
+sS'Aix-en-Provence'
+p934
+I56
+sS'Cali-Colombia'
+p935
+I228
+sS'Livorno'
+p936
+I647
+sS'Di hati mimin :* Etwa yaa....'
+p937
+I359
+sS'Near a basketball net.....'
+p938
+I809
+sS'Tra Scilla e Cariddi.'
+p939
+I1238
+sS'Uncient Greece'
+p940
+I1272
+sS'Bournemouth'
+p941
+I175
+sS'Espa\xc3\xb1a'
+p942
+I393
+sS'manila,philippines'
+p943
+I1518
+sS'Turate, CO, Italia'
+p944
+I1250
+sS'Saudade do Igua\xc3\xa7u-pr'
+p945
+I1091
+sS'Calabria,Italy'
+p946
+I222
+sS'Vancouver, BC CANADA'
+p947
+I1299
+sS'06\\08\\12\xe2\x88\x9e 18\\11\\12 \xe2\x88\x9e 19\\05\\13'
+p948
+I14
+sS'Behind the VERIZON MAN'
+p949
+I137
+sS"Terno d'Isola, Bergamo, Italy"
+p950
+I1205
+sS'Milford Texas'
+p951
+I744
+sS'england'
+p952
+I1437
+sS'#teamBROOKLYN.'
+p953
+I8
+sS'Buenos aires'
+p954
+I204
+sS'33.50931,36.253406'
+p955
+I23
+sS'Siena ITALY'
+p956
+I1125
+sS'Birmingham \xe2\x9c\x88ATL'
+p957
+I154
+sS'MANCHESTER'
+p958
+I674
+sS'Milano \xc3\xa2\xc5\x93\xe2\x80\x93'
+p959
+I733
+sS'Everywhere U want to be'
+p960
+I400
+sS'Atlanta, GA USA'
+p961
+I94
+sS'CallMeMr_GUCCI'
+p962
+I232
+sS'Milan, Italy'
+p963
+I724
+sS'somewhere youre not'
+p964
+I1597
+sS'Brianza'
+p965
+I187
+sS'Trento, Italy'
+p966
+I1240
+sS'RECIFE'
+p967
+I970
+sS'2479 Flipper Temple'
+p968
+I22
+sS'Bassiano - LT, Italy'
+p969
+I132
+sS'my room!!'
+p970
+I1536
+sS'NY city'
+p971
+I787
+sS'Pisa, Italy'
+p972
+I936
+sS'Fentyland'
+p973
+I411
+sS'Mpumalanga,nelspruit,matsulu'
+p974
+I773
+sS'where i like to be '
+p975
+I1632
+sS'Riviera del Brenta, Europa.'
+p976
+I1004
+sS'Concepcion,Chile'
+p977
+I304
+sS'Boston'
+p978
+I171
+sS'Massachusetts, USA'
+p979
+I704
+sS'912 Ga (On yo Bitch Mind)'
+p980
+I36
+sS'Accra- Ghana'
+p981
+I52
+sS'Bolzano Vicentino'
+p982
+I168
+sS'Los Angeles, California.'
+p983
+I665
+sS"Charm City to G'town"
+p984
+I273
+sS'Oklahoma'
+p985
+I859
+sS'Smoker Corner, Indiana'
+p986
+I1133
+sS'Italy, Bari, Corato'
+p987
+I574
+sS'Bocaue, Bulacan/ QC.'
+p988
+I158
+sS'Salerno'
+p989
+I1051
+sS'Atlanta / WorldWide'
+p990
+I89
+sS'Italia \xe2\x99\xa5'
+p991
+I561
+sS'Grooseland'
+p992
+I471
+sS'Florence, Italy'
+p993
+I422
+sS'\xd0\xbc L G\xe2\x98\x85'
+p994
+I1671
+sS'Gussago'
+p995
+I476
+sS'#KLEiiWEG .'
+p996
+I5
+sS'Palermo/Mannheim/Vilnius'
+p997
+I891
+sS'\xc3\x9cT: 54.970097,-1.603546'
+p998
+I1664
+sS'Brasil - S\xc3\xa3o Paulo/SP'
+p999
+I178
+sS'Belgium'
+p1000
+I140
+sS'nigeria'
+p1001
+I1542
+sS'Boulder, CO'
+p1002
+I174
+sS'Milano'
+p1003
+I727
+sS'Wh3r3 Y0u W@nT m3 t0 B3'
+p1004
+I1359
+sS'Ottawa'
+p1005
+I881
+sS'Greece,Athens'
+p1006
+I469
+sS'Republica Dominicana'
+p1007
+I986
+sS'In your dirty little mind'
+p1008
+I541
+sS'Arzignano & Forl\xc3\xac '
+p1009
+I82
+sS'Laguna Beach, CA'
+p1010
+I626
+sS'san andreas'
+p1011
+I1586
+sS'Rovigo/Parma'
+p1012
+I1032
+sS'uncomfortable'
+p1013
+I1621
+sS'44\xc2\xb056\xe2\x80\xb20\xe2\x80\xb3N 11\xc2\xb040\xe2\x80\xb20\xe2\x80\xb3E'
+p1014
+I25
+sS'Formia'
+p1015
+I429
+sS'\xc4\xb0ZM\xc4\xb0R'
+p1016
+I1666
+sS'Odessa'
+p1017
+I856
+sS'Oklahoma City, Oklahoma'
+p1018
+I861
+sS'Minneapolis, MN'
+p1019
+I748
+sS'North Italy,by the sea.'
+p1020
+I840
+sS'Anywhere but not everywhere'
+p1021
+I73
+sS'Siracusa'
+p1022
+I1129
+sS'Virginia'
+p1023
+I1334
+sS'Baltimore MD'
+p1024
+I115
+sS'DIADEMA,  SAO PAULO ,BRASIL'
+p1025
+I331
+sS'Saint Germain en Laye'
+p1026
+I1047
+sS'Germany'
+p1027
+I455
+sS'Oliveto Citra'
+p1028
+I864
+sS'Novi Sad,Vojvodina,Srbija'
+p1029
+I850
+sS'WITH KYLE.'
+p1030
+I1344
+sS'Rhye'
+p1031
+I988
+sS'Magenta, Milano, Italia.'
+p1032
+I683
+sS'Comin 2 A City Near You!!!'
+p1033
+I302
+sS'Hawaii'
+p1034
+I485
+sS'Kentucky'
+p1035
+I605
+sS'contea dei signororsi'
+p1036
+I1424
+sS'Milano, Lombardia'
+p1037
+I739
+sS'Washington DC,'
+p1038
+I1354
+sS'Right Next 2 You'
+p1039
+I993
+sS'Georgiaa'
+p1040
+I453
+sS'IndONEsia'
+p1041
+I543
+sS'Lecce nei Marsi'
+p1042
+I636
+sS'Cetraro CS'
+p1043
+I269
+sS'York, UK'
+p1044
+I1383
+sS'Torrance, California'
+p1045
+I1234
+sS'UnitedState'
+p1046
+I1283
+sS'Caserta'
+p1047
+I251
+sS'Clarksville'
+p1048
+I293
+sS'Toronto, ON'
+p1049
+I1232
+sS'Ga. BUT - FL.Girl !'
+p1050
+I438
+sS'New York, Los Angeles'
+p1051
+I827
+sS'surabaya'
+p1052
+I1606
+sS'Distrito Federal'
+p1053
+I361
+sS'praia a mare'
+p1054
+I1572
+sS'Milan (Legnano)'
+p1055
+I721
+sS'CaLi'
+p1056
+I217
+sS'LovingBigTimeRush'
+p1057
+I671
+sS'tyrol'
+p1058
+I1619
+sS'Pinerolo - TO -'
+p1059
+I933
+sS'Genova-Gradinata Nord'
+p1060
+I448
+sS'Salerno - ITALY'
+p1061
+I1052
+sS'las vegas.nevada'
+p1062
+I1501
+sS'Kenosha Wisconsin'
+p1063
+I603
+sS'Phoenix, AZ'
+p1064
+I928
+sS'Council Bluffs, IA'
+p1065
+I315
+sS'North Oaks, MN'
+p1066
+I841
+sS'Pekanbaru'
+p1067
+I910
+sS'La Palma - Canary Islands'
+p1068
+I625
+sS'in the editing room'
+p1069
+I1476
+sS'Milano-Italy'
+p1070
+I742
+sS'Milano, Italy'
+p1071
+I737
+sS'brisbane australia'
+p1072
+I1413
+sS'Leon, Gto.'
+p1073
+I638
+sS'Wien, \xc3\x83\xe2\x80\x93sterreich'
+p1074
+I1367
+sS'Festac town...lagos'
+p1075
+I415
+sS'pontianak'
+p1076
+I1571
+sS'Knoxville'
+p1077
+I610
+sS'Marcelino Freyre s/n'
+p1078
+I701
+sS'Guaruj\xc3\xa1/S\xc3\xa3o Paulo'
+p1079
+I475
+sS'Fort Myers, Florida'
+p1080
+I431
+sS'bari'
+p1081
+I1400
+sS'Jambiani, Zanzibar'
+p1082
+I587
+sS'New York City'
+p1083
+I824
+sS'Paris =]'
+p1084
+I900
+sS'Reggio Calabria'
+p1085
+I980
+sS'Calvert, Texas'
+p1086
+I233
+sS'Currenty in the past'
+p1087
+I322
+sS'roma '
+p1088
+I1581
+sS'Torino, Italia'
+p1089
+I1229
+sS'Florida'
+p1090
+I425
+sS'Kuching,Sarawak'
+p1091
+I614
+sS'w.YOOObitch'
+p1092
+I1628
+sS'Fort Lauderdale, Florida'
+p1093
+I430
+sS'Monopoli'
+p1094
+I761
+sS'santo domingo R.D'
+p1095
+I1589
+sS'Rapallo'
+p1096
+I977
+sS'DC / DMV / DIVIDED CITY'
+p1097
+I328
+sS'Milan and Canino - Italy'
+p1098
+I723
+sS'Italy  [Catania]'
+p1099
+I567
+sS'\xc3\x9cT: 44.537244,10.908635'
+p1100
+I1660
+sS'wherever the story is'
+p1101
+I1635
+sS'Chiusaforte (Italy)'
+p1102
+I282
+sS'Giarre'
+p1103
+I457
+sS'Miami Fl'
+p1104
+I717
+sS'Hogsmeade, England'
+p1105
+I490
+sS'Philadelphia, United States'
+p1106
+I923
+sS'Avigliana, Val di Susa, TO'
+p1107
+I103
+sS'California'
+p1108
+I229
+sS'Br\xce\xb1sil'
+p1109
+I198
+sS'Studente'
+p1110
+I1159
+sS"L'Aquila "
+p1111
+I617
+sS'Atlanta, GA'
+p1112
+I93
+sS'Guantanamo Bay'
+p1113
+I474
+sS'Londra'
+p1114
+I657
+sS"Minerva McGonagall's Office."
+p1115
+I747
+sS'Taytay Rizal, Philippines'
+p1116
+I1202
+sS'Quincy, MA'
+p1117
+I969
+sS'money lane'
+p1118
+I1532
+sS'EL Mundo Entero'
+p1119
+I376
+sS'Corato | Torino | Italia'
+p1120
+I309
+sS'Italy'
+p1121
+I565
+sS'Motta di Livenza (TV) - Italy'
+p1122
+I772
+sS'North Pole.'
+p1123
+I843
+sS'Vicenza'
+p1124
+I1321
+sS'Tampa, Fl'
+p1125
+I1193
+sS'Prison'
+p1126
+I959
+sS'novaLiches , Quezon city :))'
+p1127
+I1543
+sS'italy'
+p1128
+I1493
+sS'NAPOLI'
+p1129
+I782
+sS'Tampa, FL'
+p1130
+I1192
+sS'U.S.A'
+p1131
+I1261
+sS'mogliano veneto'
+p1132
+I1531
+sS'\xd0\xbc\xce\xb1\xd1\x8fsh\xce\xb1ll&#39;\xd1\x95 \xd0\xb2\xd1\x94\xe2\x88\x82 ;)'
+p1133
+I1672
+sS'Patoos de Miiinas'
+p1134
+I906
+sS'Austin, TX'
+p1135
+I99
+sS'All over'
+p1136
+I59
+sS'Stoke on Trent'
+p1137
+I1158
+sS'Stavanger and London'
+p1138
+I1153
+sS'\xc3\x9cT: -6.130514,106.919727'
+p1139
+I1646
+sS'Venezia e dintorni'
+p1140
+I1306
+sS'Valchiavenna, Italy'
+p1141
+I1293
+sS'perugia'
+p1142
+I1565
+sS'Zena'
+p1143
+I1387
+sS'Cosenza '
+p1144
+I313
+sS'Listening to Music'
+p1145
+I642
+sS'Prato, Toscana, Italia'
+p1146
+I957
+sS'Toscolano Maderno'
+p1147
+I1237
+sS'lucania'
+p1148
+I1510
+sS'Los Angeles, CA, USA'
+p1149
+I663
+sS'Cagliari, Sardinia, Italy'
+p1150
+I220
+sS'Hollywood\xe2\x9d\xa4'
+p1151
+I496
+sS'CERN, Geneva, Switzerland'
+p1152
+I212
+sS'Knee-city, get it ?'
+p1153
+I609
+sS'Newcastle upon Tyne UK'
+p1154
+I829
+sS'Somewhere in Italy'
+p1155
+I1138
+sS'Las Vages, Navada'
+p1156
+I631
+sS'-9042013'
+p1157
+I12
+sS'Cleveland,Ohio'
+p1158
+I295
+sS'North Pole'
+p1159
+I842
+sS'casadesigndecorating.com'
+p1160
+I1418
+sS'City of Angels'
+p1161
+I290
+sS'Bantayan, Cebu'
+p1162
+I120
+sS'Bekasi'
+p1163
+I139
+sS'...'
+p1164
+I13
+sS'indonesian'
+p1165
+I1484
+sS'In Her Mouth'
+p1166
+I523
+sS'WorldWide .'
+p1167
+I1376
+sS'18.468942,-69.994121'
+p1168
+I20
+sS'Milano-Rapallo (Genova)'
+p1169
+I743
+sS'Pakistan'
+p1170
+I887
+sS'Swindon, Wiltshire, UK'
+p1171
+I1166
+sS'madera, california'
+p1172
+I1514
+sS'Costa Volpino'
+p1173
+I314
+sS'Just around your corner'
+p1174
+I597
+sS"in __'s heart.. (:"
+p1175
+I1468
+sS'milan, Italy'
+p1176
+I1528
+sS'Cali bitch'
+p1177
+I227
+sS'Siena'
+p1178
+I1124
+sS'Va Beach'
+p1179
+I1292
+sS'Pzo, Venezuela'
+p1180
+I964
+sS'S\xc3\xa3o Paulo - SP'
+p1181
+I1179
+sS'Reggio Emilia'
+p1182
+I981
+sS'advertising real estate '
+p1183
+I1390
+sS'Nashville, TN'
+p1184
+I803
+sS'Everywhere Around Atlanta,Ga'
+p1185
+I399
+sS'Vigilia de Pi\xc3\xa7arras SC'
+p1186
+I1330
+sS'B\xc3\xa1lsamo - SP - Brasil'
+p1187
+I206
+sS'Baker Street'
+p1188
+I113
+sS'Wall Street, USA'
+p1189
+I1351
+sS'S\xc3\xa3o Paulo,Brazil'
+p1190
+I1183
+sS'IN YOUR HEART'
+p1191
+I506
+sS'bangalore, india'
+p1192
+I1397
+sS'iPhone: 0.000000,0.000000'
+p1193
+I1457
+sS'Rhode Island'
+p1194
+I987
+sS'Lecco'
+p1195
+I637
+sS'CHICAGO \xe2\x9c\x88 NSW \xe2\x9c\x88 Cali'
+p1196
+I213
+sS'in your dream :D'
+p1197
+I1477
+sS'\xc3\x9cT: 39.955799,-75.094481'
+p1198
+I1656
+sS'Russia'
+p1199
+I1033
+sS'Chieti'
+p1200
+I279
+sS'Romania'
+p1201
+I1016
+sS'Bergamo (IT)'
+p1202
+I146
+sS'Pesaro - Italy '
+p1203
+I919
+sS'Bari'
+p1204
+I123
+sS'Forza Emilia! TIN DUR ZIO CAN'
+p1205
+I432
+sS'Seattle, WA'
+p1206
+I1103
+sS'SD/CHI/CA/SC/JAPAN/ATL/FLA/UK'
+p1207
+I1035
+sS'Tuili  (Sardinia) (Italy)'
+p1208
+I1249
+sS'Capua'
+p1209
+I244
+sS'yo moms crib'
+p1210
+I1642
+sS'Puerto Rico'
+p1211
+I961
+sS'Marvins Room'
+p1212
+I702
+sS'Behind The Plate:)'
+p1213
+I136
+sS'Vetralandia'
+p1214
+I1317
+sS"L'Aquila"
+p1215
+I616
+sS'Switzerland'
+p1216
+I1169
+sS'Novara, Milano...e non solo'
+p1217
+I849
+sS'Austin'
+p1218
+I98
+sS'Preston'
+p1219
+I958
+sS'wonderlaanD*'
+p1220
+I1639
+sS'Karsava'
+p1221
+I601
+sS'Online Dress Store'
+p1222
+I872
+sS'Santa Lucia di Piave'
+p1223
+I1075
+sS'Orange, CA'
+p1224
+I874
+sS'Florence ITALY'
+p1225
+I421
+sS'KUWAIT \xe2\x99\xa5'
+p1226
+I599
+sS'stretto di messina'
+p1227
+I1602
+sS'Richmond, VA'
+p1228
+I990
+sS'THE A'
+p1229
+I1187
+sS'Terrarossa, Tuscany, Italy'
+p1230
+I1207
+sS'Sask.'
+p1231
+I1088
+sS'Miami Vice'
+p1232
+I718
+sS'Venezuela'
+p1233
+I1308
+sS'Richmond, Va'
+p1234
+I991
+sS'Sydney'
+p1235
+I1170
+sS'CATANDUVA-SP'
+p1236
+I209
+sS'lions olb #44'
+p1237
+I1504
+sS'Abito sempre qui da me,'
+p1238
+I49
+sS'palermo-roma'
+p1239
+I1559
+sS'Recife'
+p1240
+I979
+sS'BKK , Thailand'
+p1241
+I108
+sS'Sainte-Adele, Canada'
+p1242
+I1048
+sS'Arlington, VA'
+p1243
+I77
+sS'Washington state, USA'
+p1244
+I1355
+sS'Singapore'
+p1245
+I1128
+sS'Tardis'
+p1246
+I1198
+sS'Santa Monica, CA'
+p1247
+I1077
+sS'bandung'
+p1248
+I1396
+sS'Asian'
+p1249
+I83
+sS'York North Yorkshire'
+p1250
+I1382
+sS'Oakland'
+p1251
+I855
+sS'Dammam, Saudi Arabia'
+p1252
+I339
+sS'Grottaminarda, Irpinia'
+p1253
+I472
+sS'Bologna'
+p1254
+I164
+sS'Bassa bresciana. '
+p1255
+I129
+sS'Hairline:Under His Headband'
+p1256
+I479
+sS'Boring, Mississippi'
+p1257
+I170
+sS'Iredell, TX'
+p1258
+I555
+sS'Valpolicella VR Veneto UE'
+p1259
+I1294
+sS'Jl. Nakula No. 20x Denpasar'
+p1260
+I592
+sS'Planet Sexy, Puerto Rico'
+p1261
+I942
+sS'Camelot.'
+p1262
+I235
+sS'Paris , France'
+p1263
+I899
+sS'austin tx.'
+p1264
+I1395
+sS'Bergamo'
+p1265
+I145
+sS'Rome...Caput Mundi'
+p1266
+I1026
+sS'Bellano '
+p1267
+I142
+sS'ovada'
+p1268
+I1553
+sS'Osaka'
+p1269
+I879
+sS"LA baby'"
+p1270
+I621
+sS'Vignanello (VT) - Italy'
+p1271
+I1331
+sS'Cagliari, Italia'
+p1272
+I219
+sS'Seattle'
+p1273
+I1101
+sS'Turkey'
+p1274
+I1256
+sS'Eating ;p'
+p1275
+I381
+sS'Georgiiiia.'
+p1276
+I454
+sS"Lost in Del Piero's Smile\xe2\x99\xa1 "
+p1277
+I666
+sS'from miami to tuscany'
+p1278
+I1443
+sS'Vedelago, Italy'
+p1279
+I1303
+sS'Calgary, AB Canada'
+p1280
+I223
+sS'where ever i be at btchh ^_^'
+p1281
+I1631
+sS'Norway'
+p1282
+I845
+sS'SeRHaT'
+p1283
+I1098
+sS'Feltre BL Italy'
+p1284
+I410
+sS'Cori (LT), Italia'
+p1285
+I310
+sS'San Diego'
+p1286
+I1063
+sS'London-Rome/Genoa/Bari'
+p1287
+I656
+sS'Hawaii USA'
+p1288
+I486
+sS'Victoria BC'
+p1289
+I1324
+sS'pekan baru'
+p1290
+I1562
+sS'The Netherlands'
+p1291
+I1214
+sS'Republic du benin'
+p1292
+I984
+sS'Santiago Rep Dom'
+p1293
+I1078
+sS'Batam'
+p1294
+I133
+sS'Utah.'
+p1295
+I1287
+sS'Memphis, TN'
+p1296
+I711
+sS'Nu Joiz3y.'
+p1297
+I851
+sS'Honolulu ,Hawaii'
+p1298
+I499
+sS'A Coru\xc3\xb1a, Galicia, Europe'
+p1299
+I41
+sS'banyumas'
+p1300
+I1398
+sS'Perugia'
+p1301
+I917
+sS'Down South'
+p1302
+I366
+sS'anywhere i want to be!'
+p1303
+I1393
+sS'Italy (Sol III)'
+p1304
+I569
+sS'Vi\xe1\xbb\x87t Nam'
+p1305
+I1337
+sS'Pisa'
+p1306
+I935
+sS'frittura italia'
+p1307
+I1442
+sS'Carbonera (TV)'
+p1308
+I246
+sS'New York & Detroit\xe2\x9c\x88 ~ #TBBR\xe2\x84\xa2'
+p1309
+I823
+sS'Manila'
+p1310
+I697
+sS'Narnia, with Tumnus'
+p1311
+I802
+sS'Roma (RM)'
+p1312
+I1008
+sS'berlin? '
+p1313
+I1405
+sS'Indianapolis'
+p1314
+I547
+sS'Rio Claro'
+p1315
+I998
+sS'Indonesia tercinta'
+p1316
+I549
+sS'Lecce'
+p1317
+I635
+sS'S\xc3\x83O PAULO - SP'
+p1318
+I1173
+sS'in the TARDIS'
+p1319
+I1475
+sS'Murderapolis'
+p1320
+I776
+sS'Troy, MI'
+p1321
+I1246
+sS'Friuli Venezia Giulia'
+p1322
+I434
+sS'the boy next door'
+p1323
+I1612
+sS'Potenza'
+p1324
+I955
+sS'Nation Of Pinkslam'
+p1325
+I807
+sS'in map dotA v6.72f'
+p1326
+I1472
+sS'The Cloud Above The 8th One .'
+p1327
+I1212
+sS'Portland, OR'
+p1328
+I950
+sS'Somewhere Far.. Away'
+p1329
+I1135
+sS'MARS'
+p1330
+I675
+sS'planet earth'
+p1331
+I1570
+sS'In Yo Girls Bed'
+p1332
+I529
+sS'M\xc3\xa9xico'
+p1333
+I780
+sS'italy, sicilia'
+p1334
+I1494
+sS'Lover of Life'
+p1335
+I670
+sS'S\xc3\xa3o Carlos S.P  Brasil'
+p1336
+I1175
+sS'Roma '
+p1337
+I1007
+sS'Little Rock,AR'
+p1338
+I645
+sS'Tolmezzo, Udine, Italy'
+p1339
+I1224
+sS'torino'
+p1340
+I1614
+sS'Reading PA , new york'
+p1341
+I978
+sS'Segrate'
+p1342
+I1106
+sS'www.knockout-route.com'
+p1343
+I1640
+sS'No se donde vivo'
+p1344
+I835
+sS'Campania'
+p1345
+I236
+sS'sardegna'
+p1346
+I1591
+sS'Tiago, (BL)'
+p1347
+I1220
+sS'WithMyLove;'
+p1348
+I1369
+sS'Zone8 BITCH!'
+p1349
+I1388
+sS'Houston but should be NEWYORK'
+p1350
+I502
+sS'Barletta'
+p1351
+I126
+sS'Conegliano'
+p1352
+I305
+sS'dwn twn Monei Ville'
+p1353
+I1434
+sS'Cincinnati,Ohio'
+p1354
+I287
+sS'houston'
+p1355
+I1456
+sS'Salford, Manchester'
+p1356
+I1053
+sS'Cento, FE, Italy'
+p1357
+I265
+sS'Catal\xc3\xa3o-Goi\xc3\xa1s-Brasil'
+p1358
+I260
+sS"Places that can't be found"
+p1359
+I940
+sS'midgard'
+p1360
+I1527
+sS'trieste'
+p1361
+I1617
+sS'Induno Olona (Varese)'
+p1362
+I550
+sS'\xcf\x85\xd0\xb8\xe2\x88\x82\xd1\x94\xd1\x8fg\xd1\x8f\xcf\x83\xcf\x85\xd0\xb8\xe2\x88\x82'
+p1363
+I1668
+sS'Catania'
+p1364
+I261
+sS'In The Woods'
+p1365
+I528
+sS'S\xc3\xa3o Paulo -SP'
+p1366
+I1180
+sS'Dubai'
+p1367
+I369
+sS'Black Mesa, City17, Vicenza'
+p1368
+I155
+sS'Pavia, Italy'
+p1369
+I908
+sS'Rimini, Italy'
+p1370
+I997
+sS'VR created by AI'
+p1371
+I1291
+sS'Saudi Arabia-Khobar'
+p1372
+I1092
+sS'London Town.'
+p1373
+I652
+sS'Skien,Norway'
+p1374
+I1132
+sS'Lawton, Oklahoma'
+p1375
+I634
+sS'juventus stadium.'
+p1376
+I1497
+sS'RIMINI'
+p1377
+I971
+sS'Imola'
+p1378
+I519
+sS'belgrade'
+p1379
+I1403
+sS'italia  lombardia'
+p1380
+I1488
+sS'WORLDWIDE!'
+p1381
+I1348
+sS'Second star to the right... \xe2\x98\x80'
+p1382
+I1105
+sS'@Roma'
+p1383
+I40
+sS'Roccastrada (Gr)'
+p1384
+I1005
+sS'SMPN 4 Bogor'
+p1385
+I1041
+sS'Paris, France'
+p1386
+I902
+sS'Shropshire / London'
+p1387
+I1119
+sS'Milan - Bergamo, Italy'
+p1388
+I722
+sS"Don't Mess with Texas!!"
+p1389
+I363
+sS'Ubatuba - SP'
+p1390
+I1268
+sS'Sardegna'
+p1391
+I1084
+sS'Bergamo, Italy'
+p1392
+I148
+sS'Everywhereee in the DMV'
+p1393
+I402
+sS'Salt Lake City'
+p1394
+I1055
+sS'Palembang'
+p1395
+I888
+sS'Taranto'
+p1396
+I1197
+sS'www.peregoalbum.it'
+p1397
+I1641
+sS'Schio, Vicenza, Italy'
+p1398
+I1095
+sS'stupidland '
+p1399
+I1604
+sS'Indonesia'
+p1400
+I548
+sS'Imagination.'
+p1401
+I518
+sS'Mojokerto'
+p1402
+I757
+sS'Bras\xc3\xadlia, DF.'
+p1403
+I183
+sS'San Antonio, Texas'
+p1404
+I1059
+sS'North Carolina and Florida'
+p1405
+I839
+sS'* HIC ET NUNC *'
+p1406
+I10
+sS'\xc3\x9cT: 45.51229,8.206247'
+p1407
+I1661
+sS'Stefania'
+p1408
+I1154
+sS'Try to find me ;D'
+p1409
+I1247
+sS'napoli'
+p1410
+I1537
+sS'cremona'
+p1411
+I1427
+sS'Madrid'
+p1412
+I682
+sS'Catch Me If You Can, TX'
+p1413
+I263
+sS'Where if you Unfollow so do I'
+p1414
+I1364
+sS'61fo'
+p1415
+I33
+sS'Sorocaba - SP'
+p1416
+I1141
+sS'Detroit, MI'
+p1417
+I354
+sS'i`m so SANTA BARBARA, ( CA ] .'
+p1418
+I1462
+sS'Charleston, South Carolina'
+p1419
+I272
+sS'ovunque io voglia'
+p1420
+I1554
+sS'810 \xe2\x9c\x88352 \xe2\x9c\x88 904'
+p1421
+I35
+sS'Jupiter..bitches!'
+p1422
+I596
+sS'WWE Universe'
+p1423
+I1349
+sS'bologna'
+p1424
+I1408
+sS'Dallas, TX'
+p1425
+I335
+sS'Manhattan, NY'
+p1426
+I695
+sS'Milano Italy'
+p1427
+I731
+sS'Shufflin Under The MistleToe.\xe2\x99\xa5'
+p1428
+I1120
+sS'messina'
+p1429
+I1522
+sS'belo horizonte'
+p1430
+I1404
+sS'Ogden, Utah'
+p1431
+I857
+sS'Palermo'
+p1432
+I889
+sS'Rome, ITA '
+p1433
+I1021
+sS'Inzago, Milan, Italy'
+p1434
+I553
+sS'Padova Italy'
+p1435
+I885
+sS'Pesaro'
+p1436
+I918
+sS'CandyLand :P'
+p1437
+I241
+sS'New York'
+p1438
+I822
+sS'The WORLD'
+p1439
+I1216
+sS'District. Maryland. Virginia.'
+p1440
+I360
+sS'Uptown'
+p1441
+I1286
+sS'Roma Caput Mundi'
+p1442
+I1010
+sS'#TeamFollowBack'
+p1443
+I6
+sS'Queen City, NC'
+p1444
+I966
+sS'Brooklyn nuff said'
+p1445
+I192
+sS'Del fondo, a la izquierda. (;'
+p1446
+I345
+sS'Calgary, Alberta, Canada'
+p1447
+I224
+sS'latina'
+p1448
+I1502
+sS'Louisiana Or Arizona'
+p1449
+I669
+sS'Montecatini Terme (PT)'
+p1450
+I763
+sS'Melicucco, Reggio Calabria'
+p1451
+I709
+sS'Marbella'
+p1452
+I700
+sS'Abbotsford, BC, Can'
+p1453
+I48
+sS'Loiza Puerto Rico'
+p1454
+I648
+sS'Atlanta / Statesboro'
+p1455
+I88
+sS'JamesMaslow \xe2\x99\xa5'
+p1456
+I588
+sS'milano'
+p1457
+I1529
+sS'\xc3\x9cT: 20.352034,-73.7714000'
+p1458
+I1653
+sS'Bruxelles'
+p1459
+I196
+sS'Pin Up All Day Everyday'
+p1460
+I932
+sS'los angeles'
+p1461
+I1509
+sS'WORLDWIDE BABY'
+p1462
+I1347
+sS'Earth'
+p1463
+I377
+sS'Orlando, FL'
+p1464
+I878
+sS'Second Life'
+p1465
+I1104
+sS'\xc3\x9cT: 40.916387,-74.006483'
+p1466
+I1657
+sS'Paris'
+p1467
+I898
+sS'iPhone: 44.275872,12.347541'
+p1468
+I1460
+sS'East Bay California'
+p1469
+I378
+sS'Italia '
+p1470
+I560
+sS'Brasil Jamaica'
+p1471
+I179
+sS'in your mind'
+p1472
+I1478
+sS'in giro'
+p1473
+I1471
+sS'Brasil -'
+p1474
+I177
+sS'Never Hard To Find .'
+p1475
+I815
+sS"in Niall's bed \xca\x98\xe2\x80\xbf\xca\x98"
+p1476
+I1466
+sS'Serra San Bruno ( VV )'
+p1477
+I1113
+sS'Tampa Bay'
+p1478
+I1191
+sS'Guadalajara, Jalisco'
+p1479
+I473
+sS'Cerignola, ITA'
+p1480
+I267
+sS'Rome - Italy'
+p1481
+I1020
+sS'Philippines, Cainta Rizal'
+p1482
+I925
+sS'Treviso'
+p1483
+I1241
+sS'Lunario della parevoluzione '
+p1484
+I673
+sS'Kathmandu-Nepal'
+p1485
+I602
+sS'pelotas - rs'
+p1486
+I1564
+sS'Centovalli'
+p1487
+I266
+sS'Salernitano, apolide a Bologna'
+p1488
+I1050
+sS'winnipeg,manitoba'
+p1489
+I1637
+sS'Italy, Milano'
+p1490
+I578
+sS'New Jersey'
+p1491
+I819
+sS'qc'
+p1492
+I1576
+sS'toronto canada'
+p1493
+I1616
+sS'Nel cuore di chi mi vuole bene'
+p1494
+I811
+sS'italia,TORINO'
+p1495
+I1491
+sS'NYC - Amsterdam, Netherlands.'
+p1496
+I791
+sS'sao paulo-brasil'
+p1497
+I1590
+sS'Doofenshmirtz City State'
+p1498
+I364
+sS'Manchester, UK'
+p1499
+I691
+sS'Around Indonesian Timeline'
+p1500
+I79
+sS'London , UK'
+p1501
+I650
+sS'HELL ....'
+p1502
+I477
+sS'Where ii wanna be \xee\x84\x86\xee\x80\xa2'
+p1503
+I1365
+sS'Under the snow \xe2\x99\xa1'
+p1504
+I1276
+sS'Ontario, Canada'
+p1505
+I873
+sS'bukit kunci'
+p1506
+I1414
+sS'SF BAY AREA'
+p1507
+I1037
+sS'Where Zack Ryder is'
+p1508
+I1363
+sS'In the sound of the BEATS'
+p1509
+I539
+sS'Vicenza Italy'
+p1510
+I1322
+sS'Naperville, Illinois'
+p1511
+I794
+sS'I am Here but will be There'
+p1512
+I505
+sS'Gorizia'
+p1513
+I462
+sS'Nave Brescia'
+p1514
+I808
+sS'CSprings..-&-Louisiana'
+p1515
+I215
+sS'Tolentino, Italy'
+p1516
+I1222
+sS'Brasilian'
+p1517
+I182
+sS'Washington, D.C.'
+p1518
+I1356
+sS'here n sometimes there ;)'
+p1519
+I1450
+sS'Omaha, NE'
+p1520
+I866
+sS'GA Southern [The Real GSU]'
+p1521
+I436
+sS'Cesano Maderno, MB'
+p1522
+I268
+sS'Messina - Italy'
+p1523
+I713
+sS'Americana - SP'
+p1524
+I64
+sS'Minneapolis, Minnesota'
+p1525
+I749
+sS'Canoinhas-SC'
+p1526
+I242
+sS'Seyssinet-Pariset'
+p1527
+I1116
+sS'Sampit'
+p1528
+I1057
+sS'Turin'
+p1529
+I1252
+sS'Naptown'
+p1530
+I800
+sS'Bergamo Brescia '
+p1531
+I147
+sS'El Salvador'
+p1532
+I384
+sS'In my crazy world \xe2\x99\xa1'
+p1533
+I532
+sS'Searching ...'
+p1534
+I1099
+sS'Thailand'
+p1535
+I1210
+sS'Republic of the Philippines'
+p1536
+I985
+sS'Toronto'
+p1537
+I1231
+sS'Victoria, British Columbia'
+p1538
+I1328
+sS'Islamabad'
+p1539
+I557
+sS'Wellington'
+p1540
+I1358
+sS'Turi-Bari'
+p1541
+I1251
+sS"N 36\xc2\xb010' 0'' / W 86\xc2\xb028' 0''"
+p1542
+I781
+sS'Cicalengka, Bandung'
+p1543
+I284
+sS'SWIIZZERLAND // ZUURiiCh'
+p1544
+I1046
+sS'Rosarno'
+p1545
+I1027
+sS'New Brunswick'
+p1546
+I818
+sS'Atlanta GA \xe2\x9c\x88 Los Angeles CA.'
+p1547
+I91
+sS'Calgary,Alberta Canada'
+p1548
+I225
+sS'USA New York'
+p1549
+I1267
+sS'palazzolo, bs, italy'
+p1550
+I1555
+sS'iPhone: 44.069630,12.569966'
+p1551
+I1459
+sS'hogwarts.'
+p1552
+I1452
+sS'Vancouver'
+p1553
+I1295
+sS'Indaiatuba / SP'
+p1554
+I544
+sS'INDIA / CALI'
+p1555
+I509
+sS'Mississauga, Ontario, Canada'
+p1556
+I751
+sS'Rome, Lazio, Italy'
+p1557
+I1023
+sS'Ferrara - Italy'
+p1558
+I414
+sS'Belo Horizonte - Minas Gerais'
+p1559
+I144
+sS'Hope to be in Vancouver'
+p1560
+I500
+sS'San Clemente, California'
+p1561
+I1062
+sS'Chocolate City - DC'
+p1562
+I283
+sS'S\xc3\xa3o Paulo'
+p1563
+I1177
+sS'Rimini'
+p1564
+I996
+sS'Foligno'
+p1565
+I426
+sS'Vittorio Veneto'
+p1566
+I1336
+sS'Buenos Aires'
+p1567
+I202
+sS'Finding Your Love.'
+p1568
+I416
+sS'Tawau, Sabah'
+p1569
+I1201
+sS'Viareggio'
+p1570
+I1320
+sS'DMV'
+p1571
+I333
+sS'The Internet'
+p1572
+I1213
+sS'dihati pacar gue..gatau siapa'
+p1573
+I1432
+sS'IT Consultant'
+p1574
+I511
+sS'Minas-Brasil'
+p1575
+I746
+sS'Bologna,Italy'
+p1576
+I167
+sS'Spring'
+p1577
+I1147
+sS'indonesia'
+p1578
+I1482
+sS'Palmas, Tocantins'
+p1579
+I894
+sS'On The West Coast of FLoRiDA'
+p1580
+I869
+sS'Greensboro, NC'
+p1581
+I470
+sS'Crewe'
+p1582
+I317
+sS'BG'
+p1583
+I106
+sS'Puerto Vallarta, Mexico'
+p1584
+I962
+sS'Burnley'
+p1585
+I205
+sS'DM[V]irginia'
+p1586
+I334
+sS'los Angeles'
+p1587
+I1508
+sS'San Francisco'
+p1588
+I1066
+sS'Argentina'
+p1589
+I75
+sS'Siloam Springs, Arkansas'
+p1590
+I1127
+sS'Bahrain'
+p1591
+I112
+sS'Londrina'
+p1592
+I658
+sS'Bassa Valle Susa'
+p1593
+I128
+sS'Exactly where I want to be!'
+p1594
+I403
+sS'New York at the moment'
+p1595
+I826
+sS'Bolo by night'
+p1596
+I163
+sS'Manchester, United Kingdom'
+p1597
+I692
+sS'Italy, Europe'
+p1598
+I577
+sS'Azania'
+p1599
+I104
+sS'Aielli '
+p1600
+I55
+sS'Sylvan Lake, AB'
+p1601
+I1172
+sS'Fairburn, GA'
+p1602
+I407
+sS'atlanta georgia'
+p1603
+I1394
+sS'italia veneto'
+p1604
+I1489
+sS"D ' mna sja bsa ' A . . . ."
+p1605
+I324
+sS'England'
+p1606
+I391
+sS'Stigliano'
+p1607
+I1155
+sS'Shrewsbury'
+p1608
+I1118
+sS'S\xc3\xb3 os loukoos'
+p1609
+I1186
+sS'Where Mincio river flows.'
+p1610
+I1361
+sS'Portland, Oregon'
+p1611
+I951
+sS'Hawaii \xe2\x9c\x88|\xe2\x9c\x88 London'
+p1612
+I487
+sS'Senigallia'
+p1613
+I1108
+sS'In a galaxy far, far away.'
+p1614
+I531
+sS'Dallas, Texas'
+p1615
+I336
+sS'home'
+p1616
+I1453
+sS'fata morgana'
+p1617
+I1440
+sS'Maryland / DC  USA'
+p1618
+I703
+sS'D.M.V \xee\x8c\x94'
+p1619
+I326
+sS'New Yolk.'
+p1620
+I821
+sS'S\xc3\xa3o paulo'
+p1621
+I1185
+sS'Atlanta GA'
+p1622
+I90
+sS"Castell'arquato"
+p1623
+I256
+sS'Manado, Indonesia'
+p1624
+I689
+sS'Im Everywhere'
+p1625
+I517
+sS'Calabria '
+p1626
+I221
+sS'Atlanta, GA \xe2\x9c\x88 Global \xe2\x9c\x88'
+p1627
+I95
+sS'Libero Professionista'
+p1628
+I640
+sS'UK'
+p1629
+I1262
+sS'italia/ bologna'
+p1630
+I1492
+sS'Vimercate, Milano, Italia'
+p1631
+I1332
+sS'State of Kuwait'
+p1632
+I1152
+sS'Sunny Tampa, Florida'
+p1633
+I1163
+sS'Pematangsiantar , Indonesia'
+p1634
+I911
+sS'Pistoia'
+p1635
+I937
+sS'Dubai, U.A.E.'
+p1636
+I370
+sS'Chile'
+p1637
+I280
+sS'IceLand'
+p1638
+I514
+sS'Detroit'
+p1639
+I351
+sS'\xd0\x9c\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0'
+p1640
+I1670
+sS'CBGB, New York'
+p1641
+I210
+sS'Deerfield, Illinois'
+p1642
+I344
+sS'Manchester..'
+p1643
+I693
+sS'Jerk World'
+p1644
+I590
+sS'BayArea'
+p1645
+I134
+sS'nerviano'
+p1646
+I1539
+sS'Brindisi, Puglia ITALY'
+p1647
+I190
+sS'\xc3\x9cT: -8.638521,115.133268'
+p1648
+I1650
+sS"In Rob's hug....(Greece)"
+p1649
+I524
+sS'England Gloucestershire'
+p1650
+I392
+sS'Fernandopolis/SP'
+p1651
+I412
+sS'New York, NY'
+p1652
+I828
+sS'fucking austria'
+p1653
+I1444
+sS'Palermo,Italia; #Photographer.'
+p1654
+I890
+sS'SINCE .: 27/10'
+p1655
+I1038
+sS'Trieste (Italy)'
+p1656
+I1243
+sS'Cardiff, Wales, United Kingdom'
+p1657
+I247
+sS'old folks home, FL'
+p1658
+I1547
+sS'Roma, Italy'
+p1659
+I1014
+sS'Long Island,  New York'
+p1660
+I659
+sS'other'
+p1661
+I1679
+sS'Foligno - Italy'
+p1662
+I427
+sS'Cleveland :)'
+p1663
+I294
+sS'La La Land \xe2\x99\xa5\xcc\xae\xcd\xa1\xe2\x99\xa5\xcd\xa1'
+p1664
+I624
+sS'NY_QueenZ(BlogSiteBelow)'
+p1665
+I792
+sS'Everywhere on internet'
+p1666
+I401
+sS'Milan, Italy.'
+p1667
+I726
+sS'Naples (Italy)'
+p1668
+I796
+sS'Eastern Ontario'
+p1669
+I380
+sS'Palm Desert, CA'
+p1670
+I893
+sS'Milan, Italy '
+p1671
+I725
+sS'Hogwarts, Serpeverde.'
+p1672
+I492
+sS'palembang'
+p1673
+I1556
+sS'ST_RM_MI'
+p1674
+I1043
+sS'Atlanta Ga'
+p1675
+I92
+sS'Karachi pakistan'
+p1676
+I600
+sS'EGYPT'
+p1677
+I375
+sS'Paradise City'
+p1678
+I896
+sS'\xd0\xbd\xce\xb9\xd1\x82 \xd1\x82\xd0\xbde l\xce\xb9\xc9\xa2\xd0\xbd\xd1\x82\xd1\x95'
+p1679
+I1673
+s.
