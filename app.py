@@ -44,7 +44,7 @@ def predict():
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
     '''
-                 
+     '''            
     #created_at
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(int_features[7], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
     today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
@@ -94,8 +94,8 @@ def predict():
     else :
         percent = 0
     
-    #return render_template('result.html', rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=params)
-
+    return render_template('result.html', rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=params)
+'''
     return render_template('index.html',features=int_features)
 
 
