@@ -44,7 +44,7 @@ def predict():
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
     '''
-     '''            
+'''            
     #created_at
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(int_features[7], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
     today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
