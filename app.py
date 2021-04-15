@@ -44,13 +44,6 @@ def predict():
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
     '''          
-    #created_at
-    created_date = datetime.datetime.strptime(datetime.datetime.strptime(int_features[7], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
-    today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
-    days_count = today - created_date
-    days_count = days_count.days
-    
-    
     
     #for local host
     '''
@@ -71,10 +64,16 @@ def predict():
                      'followers_count':int_features[2],
                      'friends_count':int_features[0],
                      'favourites_count':int_features[1],
-                     'created_at':days_count,
+                     'created_at':int_features[7],
                      'location':location_dict[int_features[4]],
                      'username':int_features[3],
                      'lang':lang_dict[int_features[6]]}, index=[0])
+    #created_at
+    created_date = datetime.datetime.strptime(datetime.datetime.strptime(df['created_at'], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
+    today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
+    days_count = today - created_date
+    days_count = days_count.days
+    df.loc[0,'created_at'] = days_count
 
     #predicting sex
     sex_predictor = gender.Detector(unknown_value=u"unknown",case_sensitive=False)
