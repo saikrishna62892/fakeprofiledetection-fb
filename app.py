@@ -107,9 +107,9 @@ def predict():
     else :
         percent = 0
     
-    return render_template('result.html', rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=params)
+    #return render_template('result.html', rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features)
 
-    #return render_template('index.html',features=int_features)
+    return render_template('index.html',features=int_features)
 
 
 if __name__ == "__main__":
