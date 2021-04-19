@@ -13,20 +13,8 @@ from pybrain.datasets import ClassificationDataSet
 from datetime import date
 from datetime import datetime
 import datetime
-import json
 from flask import Flask, request, render_template
 from flask_cors import CORS
-import time
-import re
-# Tools for preprocessing input data
-from bs4 import BeautifulSoup
-from nltk import word_tokenize
-from nltk.corpus import stopwords
-import nltk
-from sklearn.feature_extraction.text import CountVectorizer 
-from nltk.stem.porter import PorterStemmer
-from nltk.stem import WordNetLemmatizer
-import gensim
 
 model = None
 scale = None
@@ -34,7 +22,6 @@ app = Flask(__name__)
 CORS(app)
 
 app = Flask(__name__)
-nltk.download('stopwords')
 
 #models
 random_forest = pickle.load(open('random_forest.pkl', 'rb'))
