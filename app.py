@@ -55,7 +55,7 @@ def predict():
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
     '''          
-    '''
+    
     #for local host
     df=pd.DataFrame({'bio':int_features[0],
                      'statuses_count':int_features[1],
@@ -80,7 +80,7 @@ def predict():
                      'username':int_features[3],
                      'lang':lang_dict[int_features[6]]}, index=[0])
 
-    
+    '''
     #created_at
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(df.loc[0,'created_at'], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
     today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
