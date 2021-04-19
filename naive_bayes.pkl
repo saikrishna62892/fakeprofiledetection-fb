@@ -25,7 +25,7 @@ p10
 tp11
 Rp12
 (I1
-(L2L
+(I2
 tp13
 cnumpy
 dtype
@@ -59,10 +59,10 @@ g10
 tp25
 Rp26
 (I1
-(L2L
+(I2
 tp27
 g14
-(S'i4'
+(S'i8'
 p28
 I0
 I1
@@ -76,7 +76,7 @@ I-1
 I0
 tp32
 bI00
-S'\x00\x00\x00\x00\x01\x00\x00\x00'
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00'
 p33
 tp34
 bsS'theta_'
@@ -89,8 +89,8 @@ g10
 tp37
 Rp38
 (I1
-(L2L
-L8L
+(I2
+I8
 tp39
 g17
 I00
@@ -107,8 +107,8 @@ g10
 tp44
 Rp45
 (I1
-(L2L
-L8L
+(I2
+I8
 tp46
 g17
 I00
@@ -129,7 +129,7 @@ g10
 tp53
 Rp54
 (I1
-(L2L
+(I2
 tp55
 g17
 I00

@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="main" style="padding: 85px;">
-        <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <div class="container" style="max-width: 1600px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
             {{ features }}
             <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
             <form action="{{ url_for('predict')}}" method="POST" class="appointment-form" id="appointment-form" style="padding-top: 0px;padding-bottom: 15px;">
