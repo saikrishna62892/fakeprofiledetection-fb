@@ -14,12 +14,10 @@ from datetime import date
 from datetime import datetime
 import datetime
 from flask import Flask, request, render_template
-from flask_cors import CORS
 
-model = None
-scale = None
+
 app = Flask(__name__)
-CORS(app)
+
 
 app = Flask(__name__)
 
