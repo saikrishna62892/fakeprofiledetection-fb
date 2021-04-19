@@ -28,8 +28,6 @@ naive_bayes = pickle.load(open('naive_bayes.pkl', 'rb'))
 neural_network = pickle.load(open('neural_network.pkl', 'rb'))
 decision_tree = pickle.load(open('decision_tree.pkl', 'rb'))
 
-#sentiment
-nvb_sentiment = pickle.load(open('nvb_sentiment.pkl', 'rb'))
 
 #location
 location_dict = pickle.load(open('location_dict.pkl', 'rb'))
@@ -57,7 +55,7 @@ def predict():
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
     '''          
-    
+    '''
     #for local host
     df=pd.DataFrame({'bio':int_features[0],
                      'statuses_count':int_features[1],
@@ -81,7 +79,7 @@ def predict():
                      'location':location_dict[int_features[4]],
                      'username':int_features[3],
                      'lang':lang_dict[int_features[6]]}, index=[0])
-    '''
+
     
     #created_at
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(df.loc[0,'created_at'], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
