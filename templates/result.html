@@ -23,6 +23,11 @@
           width: 33.33%;
           padding: 10px;
         }
+        .column2 {
+          float: left;
+          width: 50%;
+          padding: 10px;
+        }
 
         /* Clear floats after the columns */
         .row:after {
@@ -132,7 +137,7 @@
 <body>
 
     <div class="main" style="margin: 0 auto;">
-        <div class="container" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding-bottom: 15px;padding-top: 15px;">
+        <div class="container" style="max-width: 1600px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding-bottom: 15px;padding-top: 15px;">
             <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
             <div style="display:inline-block; float:right;">
                 <a href="/" style="padding-top: 15px;color: #2c437f;"><i class="fas fa-home"></i>&nbsp;Home</a>&emsp;
@@ -151,7 +156,7 @@
             </div>
             <div class="row" style="text-align: center;">
                 <div class="column">
-                    {% if rfr_prediction == 0 %}
+                    {% if rfr_prediction == 1 %}
                         <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : <span style="color: red;">Fake</span></p></strong>
                     {% else %}
                         <strong><p style="padding-top: 15px;color: #2c437f;">Random Forest : <span style="color: green;">Genuine</span></p></strong>
@@ -185,7 +190,7 @@
                     </div>
                 </div>
                 <div class="column" style="border-left: 2px solid #2c437f;">
-                    {% if svm_prediction == 0 %}
+                    {% if svm_prediction == 1 %}
                         <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : <span style="color: red;">Fake</span></p></strong>
                     {% else %}
                         <strong><p style="padding-top: 15px;color: #2c437f;">Support Vector Machine : <span style="color: green;">Genuine</span></p></strong>
@@ -219,7 +224,7 @@
                     </div>
                 </div>
                 <div class="column" style="border-left: 2px solid #2c437f;">
-                    {% if fnn_prediction == 0 %}
+                    {% if fnn_prediction == 1 %}
                         <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : <span style="color: red;">Fake</span></p></strong>
                     {% else %}
                         <strong><p style="padding-top: 15px;color: #2c437f;">Neural Network : <span style="color: green;">Genuine</span></p></strong>
@@ -252,9 +257,80 @@
                         </table>
                     </div>
                 </div>
+              <hr style="width:100%", size="5", color=#2c437f>
             </div>
-        </div>
-    </div>
+            <div class="row" style="text-align: center;">
+                <div class="column2">
+                    {% if nvb_prediction == 1 %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Naive Bayes Classification : <span style="color: red;">Fake</span></p></strong>
+                    {% else %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Naive Bayes Classification : <span style="color: green;">Genuine</span></p></strong>
+                    {% endif %}
+                    <p>Classification Report</p>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">precision</th>
+                              <th scope="col">recall</th>
+                              <th scope="col">f1</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Fake</th>
+                              <td>0.99</td>
+                              <td>1.00</td>
+                              <td>0.99</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Genuine</th>
+                              <td>1.00</td>
+                              <td>0.99</td>
+                              <td>0.99</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="column2" style="border-left: 2px solid #2c437f;">
+                    {% if dtc_prediction == 1 %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Decision Tree Classification : <span style="color: red;">Fake</span></p></strong>
+                    {% else %}
+                        <strong><p style="padding-top: 15px;color: #2c437f;">Decision Tree Classification : <span style="color: green;">Genuine</span></p></strong>
+                    {% endif %}
+                    <p>Classification Report</p>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">precision</th>
+                              <th scope="col">recall</th>
+                              <th scope="col">f1</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Fake</th>
+                              <td>1.00</td>
+                              <td>1.00</td>
+                              <td>1.00</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Genuine</th>
+                              <td>1.00</td>
+                              <td>1.00</td>
+                              <td>1.00</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
     <!-- JS -->
     <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
@@ -275,18 +351,12 @@
         let rfr = {{ rfr_prediction }}
         let svm = {{ svm_prediction }}
         let fnn = {{ fnn_prediction }}
-        if ( (rfr==0 && svm==0 && fnn==1) || (rfr==0 && svm==1 && fnn==0) || (rfr==1 && svm==0 && fnn==0)) {
-            setGaugeValue(gaugeElement, 0.67);
-        }
-        else if ((rfr==1 && svm==0 && fnn==1) || (rfr==1 && svm==1 && fnn==0) || (rfr==0 && svm==1 && fnn==1)) {
-            setGaugeValue(gaugeElement, 0.33);
-        }
-        else if(rfr==1 && svm==1 && fnn==1){
-            setGaugeValue(gaugeElement, 0);
-        }
-        else{
-            setGaugeValue(gaugeElement, 1);
-        }
+        let nvb = {{ nvb_prediction }}
+        let dtc = {{ dtc_prediction }}
+
+        let percentage = (rfr + svm + fnn + nvb + dtc );
+        percentage = percentage * 0.2;
+        setGaugeValue(gaugeElement,percentage);
     </script>
 </body>
 </html>
