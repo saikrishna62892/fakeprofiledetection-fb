@@ -14,6 +14,14 @@ from pybrain.datasets import ClassificationDataSet
 from datetime import date
 from datetime import datetime
 import datetime
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+import sexmachine.detector as gender
+import time
+import random
 
 app = Flask(__name__)
 random_forest = pickle.load(open('random_forest.pkl', 'rb'))
@@ -32,7 +40,7 @@ def predict():
     ['username','location','statuses_count','followers_count','friends_count','favourites_count','sex_code','lang_code','created_at']
     {'fr': 3, 'en': 1, 'nl': 6, 'de': 0, 'tr': 7, 'it': 5, 'gl': 4, 'es': 2}
     '''
-    int_features = request.form.values()
+    int_features = list(request.form.values())
     
     #lang
     lang_dict = {'fr': 3, 'en': 1, 'nl': 6, 'de': 0, 'tr': 7, 'it': 5, 'gl': 4, 'es': 2, 'hi':8 ,'other': 9}
@@ -45,8 +53,14 @@ def predict():
     location_dict['other']=1679
     '''          
     
+    #created_at
+    created_date = datetime.datetime.strptime(datetime.datetime.strptime(int_features[7], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
+    today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
+    days_count = today - created_date
+    days_count = days_count.days
+
     #for local host
-    '''
+    
     df=pd.DataFrame({'bio':int_features[0],
                      'statuses_count':int_features[1],
                      'followers_count':int_features[5],
@@ -68,12 +82,8 @@ def predict():
                      'location':location_dict[int_features[4]],
                      'username':int_features[3],
                      'lang':lang_dict[int_features[6]]}, index=[0])
-    #created_at
-    created_date = datetime.datetime.strptime(datetime.datetime.strptime(df['created_at'], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
-    today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
-    days_count = today - created_date
-    days_count = days_count.days
-    df.loc[0,'created_at'] = days_count
+    '''
+    
 
     #predicting sex
     sex_predictor = gender.Detector(unknown_value=u"unknown",case_sensitive=False)
