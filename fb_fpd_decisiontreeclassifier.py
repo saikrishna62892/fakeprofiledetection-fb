@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 def read_datasets():
     """ Reads users profile from csv files """
-    users = pd.read_csv(r'/home/vamsi82674/Desktop/fake profile detection fb/app/data/processed_data.csv')
+    users = pd.read_csv(r'processed_data.csv')
     y=1337*[1] + 1481*[0]
     return users,y
 
@@ -71,4 +71,4 @@ clf.fit(X_train,y_train)
 y_pred = clf.predict(X_test)
 
 # Saving model to disk
-pickle.dump(clf, open('decision_tree.pkl','wb'))
+pickle.dump(clf, open('decision_tree.pkl','wb'),protocol=2)

@@ -23,7 +23,7 @@ from sklearn.model_selection import StratifiedKFold, train_test_split, GridSearc
 
 def read_datasets():
     """ Reads users profile from csv files """
-    users = pd.read_csv(r'C:\Users\vamsi\Desktop\Project\fake profile detection fb\Code\data\processed_data.csv')
+    users = pd.read_csv(r'processed_data.csv')
     y=1337*[1] + 1481*[0]
     return users,y
 
@@ -83,4 +83,4 @@ clf.best_estimator_.fit(X_train,y_train)
 y_pred = clf.best_estimator_.predict(X_test)
 
 # Saving model to disk
-pickle.dump(clf, open('support_vector_machine.pkl','wb'))
+pickle.dump(clf, open('support_vector_machine.pkl','wb'),protocol=2)

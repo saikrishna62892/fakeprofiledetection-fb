@@ -52,7 +52,7 @@ def scrape_predict():
     prefs = {"profile.default_content_setting_values.notifications" : 2}
     chrome_options.add_experimental_option("prefs",prefs)
 
-    driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
+    driver = webdriver.Chrome('C:/Users/vamsi/chromedriver.exe', chrome_options=chrome_options)
 
     #open the webpage
     driver.get("http://www.facebook.com")

@@ -115,4 +115,4 @@ y_test,y_pred = tstdata['class'],predictions
       
                        
 # Saving model to disk
-pickle.dump(trainer, open('neural_network.pkl','wb'))
+pickle.dump(trainer, open('neural_network.pkl','wb'),protocol=2)

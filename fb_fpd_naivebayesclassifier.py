@@ -72,4 +72,4 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 # Saving model to disk
-pickle.dump(clf, open('naive_bayes.pkl','wb'))
+pickle.dump(clf, open('naive_bayes.pkl','wb'),protocol=2)
