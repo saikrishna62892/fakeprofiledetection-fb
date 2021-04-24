@@ -52,7 +52,7 @@ def scrape_predict():
     prefs = {"profile.default_content_setting_values.notifications" : 2}
     chrome_options.add_experimental_option("prefs",prefs)
 
-    driver = webdriver.Chrome('C:/Users/vamsi/chromedriver.exe', chrome_options=chrome_options)
+    driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
 
     #open the webpage
     driver.get("http://www.facebook.com")
@@ -194,7 +194,7 @@ def predict():
     '''
     #request.form.values()
     data=request.form
-    list(data.values())
+    int_features = list(data.values())
     #lang
     lang_dict = {'fr': 3, 'en': 1, 'nl': 6, 'de': 0, 'tr': 7, 'it': 5, 'gl': 4, 'es': 2, 'hi':8 ,'other': 9}
     
@@ -205,23 +205,23 @@ def predict():
     location_dict = { name : i for i, name in location_list }
     location_dict['other']=1679
     '''          
-    
+
     #created_at
-    created_date = datetime.datetime.strptime(datetime.datetime.strptime(, '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
+    created_date = datetime.datetime.strptime(datetime.datetime.strptime(int_features[7], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
     today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
     days_count = today - created_date
     days_count = days_count.days
 
     #for local host
-    df=pd.DataFrame({'bio':,
-                     'statuses_count':,
-                     'followers_count':,
-                     'friends_count':,
-                     'favourites_count':,
-                     'created_at':,
-                     'location':location_dict[],
-                     'username':,
-                     'lang':lang_dict[]}, index=[0])
+    df=pd.DataFrame({'bio':int_features[0],
+                     'statuses_count':int_features[1],
+                     'followers_count':int_features[5],
+                     'friends_count':int_features[2],
+                     'favourites_count':int_features[8],
+                     'created_at':int_features[7],
+                     'location':location_dict[int_features[6]],
+                     'username':int_features[9],
+                     'lang':lang_dict[int_features[3]]}, index=[0])
 
     '''
     #for heroku
@@ -235,8 +235,8 @@ def predict():
                      'location':location_dict[],
                      'username':,
                      'lang':lang_dict[]}, index=[0])
-
     '''
+    
     #created_at
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(df.loc[0,'created_at'], '%Y-%m-%d').strftime('%m %d %Y'),'%m %d %Y')
     today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
@@ -276,6 +276,10 @@ def predict():
     
     percent = ( dtc_prediction[0] + nvb_prediction[0] + rfr_prediction[0] + svm_prediction[0] + fnn_prediction[0] )
     percent = round(percent * 20)
-    return render_template('result.html', dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=   #return render_template('index.html',features=
+    
+    return render_template('result.html', dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
+
+    return render_template('index.html',features=int_features)
+
 if __name__ == "__main__":
     app.run(debug=True)
