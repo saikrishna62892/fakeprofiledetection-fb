@@ -63,7 +63,7 @@ button = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.CSS_SELEC
 time.sleep(10)
 
 #We are logged in!
-url='https://www.facebook.com/saikrishna62892/'
+url='https://www.facebook.com/sdmadhukumar/'
 driver.get(url)
 time.sleep(10)
 html = driver.page_source
@@ -141,6 +141,9 @@ print location
 #5.scraping created_at
 #d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j keod5gw0 nxhoafnm aigsh9s9 d3f4x2em fe6kdd0r mau55g9w c8b282yb iv3no6db jq4qci2q a3bd9o3v knj5qynh oo9gr5id hzawbc8m
 elems = driver.find_elements_by_class_name("d2edcug0.hpfvmrgz.qv66sw1b.c1et5uql.lr9zc1uh.a8c37x1j.keod5gw0.nxhoafnm.aigsh9s9.d3f4x2em.fe6kdd0r.mau55g9w.c8b282yb.iv3no6db.jq4qci2q.a3bd9o3v.knj5qynh.oo9gr5id.hzawbc8m")
+print len(elems)
+for elem in elems:
+    print elem.text
 created_at = elems[7].text
 created_at = '01 '+created_at[10:]
 created_date = datetime.datetime.strptime(datetime.datetime.strptime(created_at, '%d %B %Y').strftime('%m %d %Y'),'%m %d %Y')

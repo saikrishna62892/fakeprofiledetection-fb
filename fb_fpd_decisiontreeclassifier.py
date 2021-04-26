@@ -66,7 +66,7 @@ X_train,X_test,y_train,y_test = train_test_split(x, y, test_size=0.20, random_st
 print "training datasets.......\n"
 """ Trains and predicts dataset with a Random Forest classifier """
 
-clf=DecisionTreeClassifier(random_state=0,criterion="entropy")
+clf=DecisionTreeClassifier(random_state=44,criterion="entropy")
 clf.fit(X_train,y_train)
 y_pred = clf.predict(X_test)
 

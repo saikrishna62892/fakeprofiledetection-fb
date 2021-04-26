@@ -18,7 +18,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-import sexmachine.detector as gender
 import time
 import random
 from flask import Flask, request, render_template
@@ -46,8 +45,13 @@ location_dict = pickle.load(open('location_dict_scraper.pkl', 'rb'))
 def home():
     return render_template('index.html')
 
-@app.route('/scrape_predict',methods=['POST'])
-def scrape_predict():
+
+@app.route('/scrape_prediction',methods=['GET','POST'])
+def scrape_prediction():
+    #request.form.values()
+    data=request.form
+    int_features = list(data.values())
+    
     chrome_options = webdriver.ChromeOptions()
     prefs = {"profile.default_content_setting_values.notifications" : 2}
     chrome_options.add_experimental_option("prefs",prefs)
@@ -72,7 +76,7 @@ def scrape_predict():
     time.sleep(10)
 
     #We are logged in!
-    url='https://www.facebook.com/saikrishna62892/'
+    url=int_features[0]
     driver.get(url)
     time.sleep(10)
     html = driver.page_source 
@@ -82,7 +86,11 @@ def scrape_predict():
     #1.scraping username section
     #gmql0nx0.l94mrbxd.p1ri9a11.lzcic4wl.bp9cbjyn.j83agx80
     elems = driver.find_elements_by_class_name("gmql0nx0.l94mrbxd.p1ri9a11.lzcic4wl.bp9cbjyn.j83agx80")
-    username = elems[0].text
+    try:
+        username = elems[0].text
+    except KeyError:
+        username = 'saikrishna62892'
+        
     username = pd.Series(username)
     #predicting sex
     sex_predictor = gender.Detector(unknown_value=u"unknown",case_sensitive=False)
@@ -90,12 +98,16 @@ def scrape_predict():
     sex= first_name.apply(sex_predictor.get_gender)
     sex_dict={'female': -2, 'mostly_female': -1,'unknown':0,'mostly_male':1, 'male': 2}
     sex_code = sex.map(sex_dict).astype(int)
+    print username
     print sex_code[0]
 
     #2.scraping bio section
     #d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j keod5gw0 nxhoafnm aigsh9s9 d3f4x2em fe6kdd0r mau55g9w c8b282yb mdeji52x a5q79mjw g1cxx5fr knj5qynh m9osqain oqcyycmt
     elems = driver.find_elements_by_class_name("d2edcug0.hpfvmrgz.qv66sw1b.c1et5uql.lr9zc1uh.a8c37x1j.keod5gw0.nxhoafnm.aigsh9s9.d3f4x2em.fe6kdd0r.mau55g9w.c8b282yb.mdeji52x.a5q79mjw.g1cxx5fr.knj5qynh.m9osqain.oqcyycmt")
-    bio = elems[0].text
+    try:
+        bio = elems[0].text
+    except KeyError:
+        bio = 'im cool'
     print bio
 
     #3.scraping friends count,statuses_count,followers_count,favourites_count
@@ -123,7 +135,7 @@ def scrape_predict():
     #4.scraping location
     #oajrlxb2 g5ia77u1 qu0x051f esr5mh6w e9989ue4 r7d6kgcz rq0escxv nhd2j8a9 nc684nl6 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso i1ao9s8h esuyzwwr f1sip0of lzcic4wl oo9gr5id gpro0wi8 lrazzd5p
     elems = driver.find_elements_by_class_name("oajrlxb2.g5ia77u1.qu0x051f.esr5mh6w.e9989ue4.r7d6kgcz.rq0escxv.nhd2j8a9.nc684nl6.p7hjln8o.kvgmc6g5.cxmmr5t8.oygrvhab.hcukyx3x.jb3vyjys.rz4wbd8a.qt6c0cv9.a8nywdso.i1ao9s8h.esuyzwwr.f1sip0of.lzcic4wl.oo9gr5id.gpro0wi8.lrazzd5p")
-    location = elems[2].text
+    location = 'other'
     if location in location_dict:
         location = location_dict[location]
     else:
@@ -135,8 +147,7 @@ def scrape_predict():
     #5.scraping created_at
     #d2edcug0 hpfvmrgz qv66sw1b c1et5uql lr9zc1uh a8c37x1j keod5gw0 nxhoafnm aigsh9s9 d3f4x2em fe6kdd0r mau55g9w c8b282yb iv3no6db jq4qci2q a3bd9o3v knj5qynh oo9gr5id hzawbc8m
     elems = driver.find_elements_by_class_name("d2edcug0.hpfvmrgz.qv66sw1b.c1et5uql.lr9zc1uh.a8c37x1j.keod5gw0.nxhoafnm.aigsh9s9.d3f4x2em.fe6kdd0r.mau55g9w.c8b282yb.iv3no6db.jq4qci2q.a3bd9o3v.knj5qynh.oo9gr5id.hzawbc8m")
-    created_at = elems[7].text
-    created_at = '01 '+created_at[10:]
+    created_at = '07 December 1997' 
     created_date = datetime.datetime.strptime(datetime.datetime.strptime(created_at, '%d %B %Y').strftime('%m %d %Y'),'%m %d %Y')
     today =  datetime.datetime.strptime(datetime.datetime.now().strftime('%m %d %Y'),'%m %d %Y') 
     days_count = today - created_date
@@ -146,19 +157,19 @@ def scrape_predict():
     #6.language
     #lang
     lang_dict = {'fr': 3, 'en': 1, 'nl': 6, 'de': 0, 'tr': 7, 'it': 5, 'gl': 4, 'es': 2, 'hi':8 ,'other': 9}
-    
+
     #['created_at','location','statuses_count','followers_count','favourites_count','friends_count','sex_code','lang_code']
     df=pd.DataFrame({'bio':bio,
                      'statuses_count':statuses_count,
                      'followers_count':followers_count,
-                     'friends_count':friends_count,
+                     'friends_count':friend_count,
                      'favourites_count':favourites_count,
                      'created_at':days_count,
                      'location':location,
                      'sex_code':sex_code,
-                     'lang':lang_dict['other']}, index=[0])
+                     'lang':lang_dict['hi']}, index=[0])
     params = pd.Series([df['created_at'],df['location'],df['statuses_count'],df['followers_count'],df['favourites_count'],df['friends_count'],sex_code,df['lang']])
-    
+    print params
     #Random forest prediction
     rfr_prediction = random_forest.predict(params)
     
@@ -182,8 +193,8 @@ def scrape_predict():
     percent = ( dtc_prediction[0] + nvb_prediction[0] + rfr_prediction[0] + svm_prediction[0] + fnn_prediction[0] )
     percent = round(percent * 20)
     
-    return render_template('result.html', features=params)
-
+    return render_template('result.html',username=username[0], dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
+    #return render_template('index.html',features=params)
 
 
 @app.route('/predict',methods=['POST'])
@@ -276,10 +287,9 @@ def predict():
     
     percent = ( dtc_prediction[0] + nvb_prediction[0] + rfr_prediction[0] + svm_prediction[0] + fnn_prediction[0] )
     percent = round(percent * 20)
-    
-    return render_template('result.html', dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
+    return render_template('result.html',username = int_features[9],dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
 
-    return render_template('index.html',features=int_features)
+    #return render_template('index.html',features=int_features)
 
 if __name__ == "__main__":
     app.run(debug=True)

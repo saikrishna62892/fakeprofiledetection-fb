@@ -1,40 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Facebook Fake Profile Detection</title>
-    <!-- Favicon -->
-    <link rel="icon" sizes="16x16" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png">
-    <!-- Font Icon -->
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-    <!-- Main css -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-    <div class="main" style="padding: 85px;">
-        <div class="container" style="max-width: 1400px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-            <h2 style="padding-top: 15px;color: #2c437f;" align="center"><strong>Facebook Fake Profile Detection</strong></h2>
-            <!-- FORM! -->
-            {{ features }}
-            <form action="{{ url_for('scrape_prediction') }}" method="POST" class="appointment-form" id="appointment-form-scrape" style="padding-top: 0px;padding-bottom: 15px;">
-                <h5 align="center" style="color: #2c437f;">Facebook Profile URL Form</h5>
-                <div class="form-row">
-                    <div class="col-lg-10" style="padding: 15px 15px 15px 15px;">
-                        <input type="url" name="url" id="url" placeholder="Facebook Profile URL" required />
-                    </div>
-                    <div class="form-submit col-lg-2">
-                        <center><button type="submit" name="submit_profile" id="submit_profile" class="submit">Submit Profile</button></center>
-                    </div>
-                </div>
-            </form>
-            <h3 align="center" style="color: #2c437f;">OR</h3>
-            <!-- FORM3 -->
-            <form action="{{ url_for('predict')}}" method="POST" class="appointment-form" id="appointment-form" style="padding-top: 0px;padding-bottom: 15px;">                
+<form action="{{ url_for('predict')}}" method="POST" class="appointment-form" id="appointment-form" style="padding-top: 0px;padding-bottom: 15px;">                
                 <h5 align="center" style="color: #2c437f;">Manual Entry Form</h5>
+                <br>
                 <div class="form-row">
                     <div class="col-lg-4" style="padding: 15px 15px 15px 15px;">
                         <input type="text" name="user_name" id="user_name" placeholder="Username" required />
@@ -84,10 +50,3 @@
                     <center><button type="submit" name="submit" id="submit" class="submit">Submit Data</button></center>
                 </div>
             </form>
-        </div>
-    </div>
-    <!-- JS -->
-    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-</body>
-</html>
