@@ -18,6 +18,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+import os
 import time
 import random
 from flask import Flask, request, render_template
@@ -53,11 +54,20 @@ def scrape_prediction():
     int_features = list(data.values())
     
     chrome_options = webdriver.ChromeOptions()
+    #for heroku
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--no-sandbox")
+
+    
     prefs = {"profile.default_content_setting_values.notifications" : 2}
     chrome_options.add_experimental_option("prefs",prefs)
 
-    driver = webdriver.Chrome('C:/Users/vamsi/chromedriver.exe', chrome_options=chrome_options)
-
+    #driver = webdriver.Chrome('C:/Users/vamsi/chromedriver.exe', chrome_options=chrome_options)
+    #for heroku
+    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
     #open the webpage
     driver.get("http://www.facebook.com")
 
