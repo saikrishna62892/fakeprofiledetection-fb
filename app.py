@@ -285,9 +285,12 @@ def predict():
     fnn_prediction=neural_network.testOnClassData (dataset=ds2)
     
     
-    percent = ( dtc_prediction[0] + nvb_prediction[0] + rfr_prediction[0] + svm_prediction[0] + fnn_prediction[0] )
-    percent = round(percent * 20)
-    return render_template('result.html',username = int_features[9],dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
+    #percent = ( dtc_prediction[0] + nvb_prediction[0] + rfr_prediction[0] + svm_prediction[0] + fnn_prediction[0] )
+    percent = ( dtc_prediction[0]  + rfr_prediction[0]  + fnn_prediction[0] )
+
+    percent = round(percent * 33)
+#    return render_template('result.html',username = int_features[9],dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
+    return render_template('result.html',username = int_features[9],dtc_prediction = dtc_prediction[0] ,rfr_prediction = rfr_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
 
     #return render_template('index.html',features=int_features)
 

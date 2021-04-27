@@ -11,3 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 sexmachine==0.1.1
 pybrain==0.3
+selenium==3.141.0
