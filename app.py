@@ -57,13 +57,13 @@ def scrape_prediction():
     
     chrome_options = webdriver.ChromeOptions()
     #for heroku
-    '''
+    
     chrome_options = webdriver.ChromeOptions()
     chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--no-sandbox")
-    '''
+    
 
     
     prefs = {"profile.default_content_setting_values.notifications" : 2}
