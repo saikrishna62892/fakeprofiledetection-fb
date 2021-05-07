@@ -95,7 +95,7 @@ def scrape_prediction():
     driver.get(url)
     time.sleep(5)
     html = driver.page_source 
-    '''
+    
     #['created_at','statuses_count','followers_count','favourites_count','sex_code','lang_code']
 
     #1.scraping username section
@@ -236,9 +236,9 @@ def scrape_prediction():
     
     percent = ( dtc_prediction[0] + rfr_prediction[0] + fnn_prediction[0] )
     percent = round(percent * 33)
-    '''
-    #return render_template('result.html',username=username[0], dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
-    return render_template('index.html',features=int_features)
+    
+    return render_template('result.html',username=username[0], dtc_prediction = dtc_prediction[0] , nvb_prediction = nvb_prediction[0] ,rfr_prediction = rfr_prediction[0],svm_prediction = svm_prediction[0],fnn_prediction = fnn_prediction[0],percentage=percent,features=int_features) 
+    #return render_template('index.html',features=int_features)
 
 
 @app.route('/predict',methods=['POST'])
